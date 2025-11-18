@@ -77,53 +77,109 @@ export default function Home() {
     }
   }, [currentTime, transcriptEntries]);
 
-  const handleVideoSelect = useCallback((file: File) => {
-    const url = URL.createObjectURL(file);
-    setVideoUrl(url);
-    toast({
-      title: "Video loaded",
-      description: `${file.name} has been loaded successfully.`,
-    });
-  }, [toast]);
-
-  const handleTranscriptSelect = useCallback(async (file: File) => {
-    const content = await file.text();
-    let entries: TranscriptEntry[] = [];
+  const handleVideoSelect = useCallback(async (file: File) => {
+    const formData = new FormData();
+    formData.append("video", file);
 
     try {
-      if (preset === "recall") {
-        const jsonData = JSON.parse(content);
-        entries = parseRecallTranscript(jsonData);
-      } else if (file.name.endsWith(".vtt")) {
-        entries = parseVTTTranscript(content);
-      } else {
-        entries = parseRawText(content);
+      const response = await fetch("/api/upload/video", {
+        method: "POST",
+        body: formData,
+      });
+
+      if (!response.ok) {
+        throw new Error("Upload failed");
       }
 
-      setTranscriptEntries(entries);
+      const data = await response.json();
+      setVideoUrl(data.url);
       toast({
-        title: "Transcript loaded",
-        description: `Parsed ${entries.length} transcript entries.`,
+        title: "Video loaded",
+        description: `${file.name} has been uploaded successfully.`,
       });
     } catch (error) {
       toast({
-        title: "Parse error",
-        description: "Could not parse the transcript file. Using raw text mode.",
+        title: "Upload failed",
+        description: "Could not upload the video file.",
         variant: "destructive",
       });
-      entries = parseRawText(content);
-      setTranscriptEntries(entries);
+    }
+  }, [toast]);
+
+  const handleTranscriptSelect = useCallback(async (file: File) => {
+    const formData = new FormData();
+    formData.append("transcript", file);
+
+    try {
+      const response = await fetch("/api/upload/transcript", {
+        method: "POST",
+        body: formData,
+      });
+
+      if (!response.ok) {
+        throw new Error("Upload failed");
+      }
+
+      const data = await response.json();
+      const content = data.content;
+      let entries: TranscriptEntry[] = [];
+
+      try {
+        if (preset === "recall") {
+          const jsonData = JSON.parse(content);
+          entries = parseRecallTranscript(jsonData);
+        } else if (file.name.endsWith(".vtt")) {
+          entries = parseVTTTranscript(content);
+        } else {
+          entries = parseRawText(content);
+        }
+
+        setTranscriptEntries(entries);
+        toast({
+          title: "Transcript loaded",
+          description: `Parsed ${entries.length} transcript entries.`,
+        });
+      } catch (error) {
+        toast({
+          title: "Parse error",
+          description: "Could not parse the transcript file. Using raw text mode.",
+          variant: "destructive",
+        });
+        entries = parseRawText(content);
+        setTranscriptEntries(entries);
+      }
+    } catch (error) {
+      toast({
+        title: "Upload failed",
+        description: "Could not upload the transcript file.",
+        variant: "destructive",
+      });
     }
   }, [preset, toast]);
 
-  const handleLoadSample = () => {
-    setVideoUrl(SAMPLE_VIDEO);
-    setTranscriptEntries(SAMPLE_TRANSCRIPT);
-    setPreset("recall");
-    toast({
-      title: "Sample loaded",
-      description: "Sample meeting has been loaded successfully.",
-    });
+  const handleLoadSample = async () => {
+    try {
+      const response = await fetch("/sample-transcript.json");
+      const jsonData = await response.json();
+      const entries = parseRecallTranscript(jsonData);
+      
+      setVideoUrl(SAMPLE_VIDEO);
+      setTranscriptEntries(entries);
+      setPreset("recall");
+      toast({
+        title: "Sample loaded",
+        description: "Sample meeting has been loaded successfully.",
+      });
+    } catch (error) {
+      // Fallback to hardcoded sample
+      setVideoUrl(SAMPLE_VIDEO);
+      setTranscriptEntries(SAMPLE_TRANSCRIPT);
+      setPreset("recall");
+      toast({
+        title: "Sample loaded",
+        description: "Sample meeting has been loaded successfully.",
+      });
+    }
   };
 
   const showUploader = !videoUrl || transcriptEntries.length === 0;

@@ -57,7 +57,7 @@ export default function Waveform({ audioUrl, currentTime, onSeek }: WaveformProp
   }, [currentTime]);
 
   useEffect(() => {
-    if (wavesurferRef.current) {
+    if (wavesurferRef.current && wavesurferRef.current.getDuration() > 0) {
       wavesurferRef.current.zoom(zoomLevel);
     }
   }, [zoomLevel]);
