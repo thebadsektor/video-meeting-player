@@ -84,6 +84,9 @@ export async function registerRoutes(app: Express): Promise<Server> {
         return res.status(403).json({ error: "File type not allowed" });
       }
 
+      const stats = await fs.stat(filePath);
+      const fileSize = stats.size;
+
       // Set appropriate content type and security headers
       const contentTypes: Record<string, string> = {
         ".mp4": "video/mp4",
@@ -95,13 +98,54 @@ export async function registerRoutes(app: Express): Promise<Server> {
         ".srt": "application/x-subrip",
       };
 
-      res.setHeader("Content-Type", contentTypes[ext] || "application/octet-stream");
+      const contentType = contentTypes[ext] || "application/octet-stream";
       res.setHeader("Cross-Origin-Resource-Policy", "cross-origin");
       res.setHeader("X-Content-Type-Options", "nosniff");
       res.setHeader("Content-Security-Policy", "default-src 'self'");
-      
-      // Stream the file
-      const fileStream = (await import("fs")).createReadStream(filePath);
+
+      const rangeHeader = req.headers.range;
+      if (!rangeHeader) {
+        res.writeHead(200, {
+          "Content-Type": contentType,
+          "Content-Length": fileSize,
+          "Accept-Ranges": "bytes",
+        });
+        const fileStream = (await import("fs")).createReadStream(filePath);
+        fileStream.pipe(res);
+        return;
+      }
+
+      const [startStr, endStr] = rangeHeader.replace(/bytes=/, "").split("-");
+      let start = Number(startStr);
+      let end = endStr ? Number(endStr) : fileSize - 1;
+
+      if (Number.isNaN(start) || start < 0) {
+        start = 0;
+      }
+      if (Number.isNaN(end) || end >= fileSize) {
+        end = fileSize - 1;
+      }
+
+      if (start > end) {
+        res.status(416).set({
+          "Content-Range": `bytes */${fileSize}`,
+          "Accept-Ranges": "bytes",
+        });
+        return res.end();
+      }
+
+      const chunkSize = end - start + 1;
+      res.writeHead(206, {
+        "Content-Range": `bytes ${start}-${end}/${fileSize}`,
+        "Accept-Ranges": "bytes",
+        "Content-Length": chunkSize,
+        "Content-Type": contentType,
+      });
+
+      const fileStream = (await import("fs")).createReadStream(filePath, {
+        start,
+        end,
+      });
       fileStream.pipe(res);
     } catch (error) {
       res.status(500).json({ error: "Error serving file" });
