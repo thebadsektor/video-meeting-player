@@ -1,193 +1,3076 @@
 [
   {
-    "participant": {
-      "id": 100,
-      "name": "Gerald Villaran",
-      "extra_data": {
-        "google_meet": {
-          "static_participant_id": "ksSi0dC3xbuF3P2eoMOVcVlKcMZ6ypdtByGlMoMAnRo="
-        }
-      },
-      "is_host": true,
-      "platform": "unknown",
-      "email": null
-    },
+    "speaker": "Gerald Villaran",
     "words": [
       {
-        "text": "Mic",
-        "start_timestamp": {
-          "relative": 6.45408,
-          "absolute": "2025-10-30T02:08:29.826Z"
-        },
-        "end_timestamp": {
-          "relative": 6.69408,
-          "absolute": "2025-10-30T02:08:30.066Z"
-        }
+        "text": "Alrighty",
+        "start_timestamp": 17.890676,
+        "end_timestamp": 18.370676
       },
       {
-        "text": "check,",
-        "start_timestamp": {
-          "relative": 6.69408,
-          "absolute": "2025-10-30T02:08:30.066Z"
-        },
-        "end_timestamp": {
-          "relative": 7.01408,
-          "absolute": "2025-10-30T02:08:30.386Z"
-        }
+        "text": "it",
+        "start_timestamp": 51.450676,
+        "end_timestamp": 51.690674
       },
       {
-        "text": "mic",
-        "start_timestamp": {
-          "relative": 7.01408,
-          "absolute": "2025-10-30T02:08:30.386Z"
-        },
-        "end_timestamp": {
-          "relative": 7.33408,
-          "absolute": "2025-10-30T02:08:30.706Z"
-        }
+        "text": "let's",
+        "start_timestamp": 77.54067,
+        "end_timestamp": 77.82067
       },
       {
-        "text": "check.",
-        "start_timestamp": {
-          "relative": 7.33408,
-          "absolute": "2025-10-30T02:08:30.706Z"
-        },
-        "end_timestamp": {
-          "relative": 7.65408,
-          "absolute": "2025-10-30T02:08:31.026Z"
-        }
+        "text": "kick",
+        "start_timestamp": 77.82067,
+        "end_timestamp": 78.14067
       },
       {
-        "text": "1,",
-        "start_timestamp": {
-          "relative": 7.65408,
-          "absolute": "2025-10-30T02:08:31.026Z"
-        },
-        "end_timestamp": {
-          "relative": 7.89408,
-          "absolute": "2025-10-30T02:08:31.266Z"
-        }
+        "text": "off",
+        "start_timestamp": 78.14067,
+        "end_timestamp": 78.50067
       },
       {
-        "text": "2,",
-        "start_timestamp": {
-          "relative": 7.94708,
-          "absolute": "2025-10-30T02:08:31.319Z"
-        },
-        "end_timestamp": {
-          "relative": 8.16008,
-          "absolute": "2025-10-30T02:08:31.532Z"
-        }
+        "text": "the",
+        "start_timestamp": 78.50067,
+        "end_timestamp": 78.82067
       },
       {
-        "text": "3.",
-        "start_timestamp": {
-          "relative": 8.21408,
-          "absolute": "2025-10-30T02:08:31.586Z"
-        },
-        "end_timestamp": {
-          "relative": 8.45408,
-          "absolute": "2025-10-30T02:08:31.826Z"
-        }
+        "text": "bi",
+        "start_timestamp": 78.82067,
+        "end_timestamp": 79.10068
       },
       {
-        "text": "Mic",
-        "start_timestamp": {
-          "relative": 17.254082,
-          "absolute": "2025-10-30T02:08:40.626Z"
-        },
-        "end_timestamp": {
-          "relative": 17.69408,
-          "absolute": "2025-10-30T02:08:41.066Z"
-        }
+        "text": "weekly",
+        "start_timestamp": 79.10068,
+        "end_timestamp": 79.700676
       },
       {
-        "text": "check,",
-        "start_timestamp": {
-          "relative": 17.69408,
-          "absolute": "2025-10-30T02:08:41.066Z"
-        },
-        "end_timestamp": {
-          "relative": 18.054081,
-          "absolute": "2025-10-30T02:08:41.426Z"
-        }
+        "text": "Clarity",
+        "start_timestamp": 79.700676,
+        "end_timestamp": 80.38068
       },
       {
-        "text": "mic",
-        "start_timestamp": {
-          "relative": 18.054081,
-          "absolute": "2025-10-30T02:08:41.426Z"
-        },
-        "end_timestamp": {
-          "relative": 18.37408,
-          "absolute": "2025-10-30T02:08:41.746Z"
-        }
+        "text": "engine",
+        "start_timestamp": 80.38068,
+        "end_timestamp": 80.82067
       },
       {
-        "text": "check.",
-        "start_timestamp": {
-          "relative": 18.37408,
-          "absolute": "2025-10-30T02:08:41.746Z"
-        },
-        "end_timestamp": {
-          "relative": 18.734081,
-          "absolute": "2025-10-30T02:08:42.106Z"
-        }
+        "text": "project",
+        "start_timestamp": 80.82067,
+        "end_timestamp": 81.14067
       },
       {
-        "text": "1,",
-        "start_timestamp": {
-          "relative": 18.734081,
-          "absolute": "2025-10-30T02:08:42.106Z"
-        },
-        "end_timestamp": {
-          "relative": 19.029081,
-          "absolute": "2025-10-30T02:08:42.401Z"
-        }
+        "text": "check",
+        "start_timestamp": 81.22067,
+        "end_timestamp": 81.660675
       },
       {
-        "text": "2',",
-        "start_timestamp": {
-          "relative": 19.094082,
-          "absolute": "2025-10-30T02:08:42.466Z"
-        },
-        "end_timestamp": {
-          "relative": 19.35708,
-          "absolute": "2025-10-30T02:08:42.729Z"
-        }
+        "text": "in.",
+        "start_timestamp": 81.660675,
+        "end_timestamp": 82.020676
       },
       {
-        "text": "3,",
-        "start_timestamp": {
-          "relative": 19.422081,
-          "absolute": "2025-10-30T02:08:42.794Z"
-        },
-        "end_timestamp": {
-          "relative": 19.685081,
-          "absolute": "2025-10-30T02:08:43.057Z"
-        }
+        "text": "Our",
+        "start_timestamp": 84.18067,
+        "end_timestamp": 84.54067
       },
       {
-        "text": "4,",
-        "start_timestamp": {
-          "relative": 19.75008,
-          "absolute": "2025-10-30T02:08:43.122Z"
-        },
-        "end_timestamp": {
-          "relative": 20.01308,
-          "absolute": "2025-10-30T02:08:43.385Z"
-        }
+        "text": "main",
+        "start_timestamp": 84.54067,
+        "end_timestamp": 84.86067
       },
       {
-        "text": "5.",
-        "start_timestamp": {
-          "relative": 20.078081,
-          "absolute": "2025-10-30T02:08:43.450Z"
-        },
-        "end_timestamp": {
-          "relative": 20.37408,
-          "absolute": "2025-10-30T02:08:43.746Z"
-        }
+        "text": "focus",
+        "start_timestamp": 84.86067,
+        "end_timestamp": 85.18067
+      },
+      {
+        "text": "today",
+        "start_timestamp": 85.18067,
+        "end_timestamp": 85.46068
+      },
+      {
+        "text": "is",
+        "start_timestamp": 85.46068,
+        "end_timestamp": 85.660675
+      },
+      {
+        "text": "the",
+        "start_timestamp": 85.660675,
+        "end_timestamp": 85.86067
+      },
+      {
+        "text": "alpha",
+        "start_timestamp": 85.86067,
+        "end_timestamp": 86.26067
+      },
+      {
+        "text": "deployment",
+        "start_timestamp": 86.26067,
+        "end_timestamp": 86.74068
+      },
+      {
+        "text": "and",
+        "start_timestamp": 86.74068,
+        "end_timestamp": 86.980675
+      },
+      {
+        "text": "the",
+        "start_timestamp": 86.980675,
+        "end_timestamp": 87.18067
+      },
+      {
+        "text": "preliminary",
+        "start_timestamp": 87.18067,
+        "end_timestamp": 87.980675
+      },
+      {
+        "text": "marketing",
+        "start_timestamp": 87.980675,
+        "end_timestamp": 88.50067
+      },
+      {
+        "text": "narrative.",
+        "start_timestamp": 88.50067,
+        "end_timestamp": 89.06068
+      },
+      {
+        "text": "David,",
+        "start_timestamp": 89.86067,
+        "end_timestamp": 90.42068
+      },
+      {
+        "text": "could",
+        "start_timestamp": 90.660675,
+        "end_timestamp": 90.980675
+      },
+      {
+        "text": "you",
+        "start_timestamp": 90.980675,
+        "end_timestamp": 91.18067
+      },
+      {
+        "text": "start",
+        "start_timestamp": 91.18067,
+        "end_timestamp": 91.46068
+      },
+      {
+        "text": "us",
+        "start_timestamp": 91.46068,
+        "end_timestamp": 91.82067
+      },
+      {
+        "text": "off",
+        "start_timestamp": 91.82067,
+        "end_timestamp": 92.18067
+      },
+      {
+        "text": "with",
+        "start_timestamp": 92.340675,
+        "end_timestamp": 92.620674
+      },
+      {
+        "text": "an",
+        "start_timestamp": 92.620674,
+        "end_timestamp": 92.86067
+      },
+      {
+        "text": "update",
+        "start_timestamp": 92.86067,
+        "end_timestamp": 93.42068
+      },
+      {
+        "text": "on",
+        "start_timestamp": 93.42068,
+        "end_timestamp": 93.700676
+      },
+      {
+        "text": "the",
+        "start_timestamp": 93.700676,
+        "end_timestamp": 93.90067
+      },
+      {
+        "text": "backend?",
+        "start_timestamp": 93.90067,
+        "end_timestamp": 94.42068
+      }
+    ]
+  },
+  {
+    "speaker": "David",
+    "words": [
+      {
+        "text": "Good",
+        "start_timestamp": 121.230675,
+        "end_timestamp": 121.39067
+      },
+      {
+        "text": "morning.",
+        "start_timestamp": 121.39067,
+        "end_timestamp": 121.71068
+      },
+      {
+        "text": "The",
+        "start_timestamp": 122.270676,
+        "end_timestamp": 122.590675
+      },
+      {
+        "text": "core",
+        "start_timestamp": 122.590675,
+        "end_timestamp": 122.950676
+      },
+      {
+        "text": "models",
+        "start_timestamp": 122.950676,
+        "end_timestamp": 123.39067
+      },
+      {
+        "text": "performance",
+        "start_timestamp": 123.39067,
+        "end_timestamp": 123.79067
+      },
+      {
+        "text": "metrics",
+        "start_timestamp": 123.950676,
+        "end_timestamp": 124.590675
+      },
+      {
+        "text": "are",
+        "start_timestamp": 124.590675,
+        "end_timestamp": 124.910675
+      },
+      {
+        "text": "actually",
+        "start_timestamp": 124.99068,
+        "end_timestamp": 125.39067
+      },
+      {
+        "text": "fantastic.",
+        "start_timestamp": 126.11067,
+        "end_timestamp": 126.910675
+      },
+      {
+        "text": "We're",
+        "start_timestamp": 126.910675,
+        "end_timestamp": 127.35068
+      },
+      {
+        "text": "seeing",
+        "start_timestamp": 127.35068,
+        "end_timestamp": 127.63068
+      },
+      {
+        "text": "an",
+        "start_timestamp": 127.63068,
+        "end_timestamp": 127.910675
+      },
+      {
+        "text": "8%",
+        "start_timestamp": 127.910675,
+        "end_timestamp": 128.59067
+      },
+      {
+        "text": "increase",
+        "start_timestamp": 128.67067,
+        "end_timestamp": 129.07068
+      },
+      {
+        "text": "in",
+        "start_timestamp": 129.31067,
+        "end_timestamp": 129.63068
+      },
+      {
+        "text": "precision",
+        "start_timestamp": 129.63068,
+        "end_timestamp": 130.27068
+      },
+      {
+        "text": "over",
+        "start_timestamp": 130.35068,
+        "end_timestamp": 130.71068
+      },
+      {
+        "text": "the",
+        "start_timestamp": 130.71068,
+        "end_timestamp": 130.99068
+      },
+      {
+        "text": "baseline.",
+        "start_timestamp": 130.99068,
+        "end_timestamp": 131.63068
+      },
+      {
+        "text": "However,",
+        "start_timestamp": 132.49068,
+        "end_timestamp": 132.73067
+      },
+      {
+        "text": "I",
+        "start_timestamp": 132.81067,
+        "end_timestamp": 133.17067
+      },
+      {
+        "text": "have",
+        "start_timestamp": 133.17067,
+        "end_timestamp": 133.53067
+      },
+      {
+        "text": "a",
+        "start_timestamp": 133.61067,
+        "end_timestamp": 133.93068
+      },
+      {
+        "text": "slight",
+        "start_timestamp": 133.93068,
+        "end_timestamp": 134.29068
+      },
+      {
+        "text": "concern",
+        "start_timestamp": 134.29068,
+        "end_timestamp": 134.65068
+      },
+      {
+        "text": "about",
+        "start_timestamp": 134.81067,
+        "end_timestamp": 135.13068
+      },
+      {
+        "text": "the",
+        "start_timestamp": 135.13068,
+        "end_timestamp": 135.37068
+      },
+      {
+        "text": "server",
+        "start_timestamp": 135.37068,
+        "end_timestamp": 135.89067
+      },
+      {
+        "text": "deployment.",
+        "start_timestamp": 135.89067,
+        "end_timestamp": 136.65068
+      },
+      {
+        "text": "Integrating",
+        "start_timestamp": 137.21068,
+        "end_timestamp": 137.85068
+      },
+      {
+        "text": "the",
+        "start_timestamp": 137.85068,
+        "end_timestamp": 138.05067
+      },
+      {
+        "text": "new",
+        "start_timestamp": 138.05067,
+        "end_timestamp": 138.25067
+      },
+      {
+        "text": "Kubernetes",
+        "start_timestamp": 138.25067,
+        "end_timestamp": 138.97067
+      },
+      {
+        "text": "clusters",
+        "start_timestamp": 139.05067,
+        "end_timestamp": 139.65068
+      },
+      {
+        "text": "is",
+        "start_timestamp": 139.65068,
+        "end_timestamp": 139.93068
+      },
+      {
+        "text": "taking",
+        "start_timestamp": 139.93068,
+        "end_timestamp": 140.25067
+      },
+      {
+        "text": "longer",
+        "start_timestamp": 140.33067,
+        "end_timestamp": 140.77068
+      },
+      {
+        "text": "than",
+        "start_timestamp": 140.77068,
+        "end_timestamp": 140.97067
+      },
+      {
+        "text": "we",
+        "start_timestamp": 140.97067,
+        "end_timestamp": 141.17067
+      },
+      {
+        "text": "budgeted.",
+        "start_timestamp": 141.17067,
+        "end_timestamp": 141.85068
+      },
+      {
+        "text": "I've",
+        "start_timestamp": 142.33067,
+        "end_timestamp": 142.69067
+      },
+      {
+        "text": "reallocated",
+        "start_timestamp": 142.69067,
+        "end_timestamp": 143.45067
+      },
+      {
+        "text": "John",
+        "start_timestamp": 143.45067,
+        "end_timestamp": 143.77068
+      },
+      {
+        "text": "and",
+        "start_timestamp": 143.77068,
+        "end_timestamp": 144.05067
+      },
+      {
+        "text": "Maria",
+        "start_timestamp": 144.05067,
+        "end_timestamp": 144.57068
+      },
+      {
+        "text": "to",
+        "start_timestamp": 144.57068,
+        "end_timestamp": 144.89067
+      },
+      {
+        "text": "focus",
+        "start_timestamp": 144.89067,
+        "end_timestamp": 145.21068
+      },
+      {
+        "text": "purely",
+        "start_timestamp": 145.21068,
+        "end_timestamp": 145.73067
+      },
+      {
+        "text": "on",
+        "start_timestamp": 145.73067,
+        "end_timestamp": 146.01068
+      },
+      {
+        "text": "this,",
+        "start_timestamp": 146.01068,
+        "end_timestamp": 146.33067
+      },
+      {
+        "text": "but",
+        "start_timestamp": 147.53067,
+        "end_timestamp": 147.80968
+      },
+      {
+        "text": "it",
+        "start_timestamp": 147.80968,
+        "end_timestamp": 147.96968
+      },
+      {
+        "text": "puts",
+        "start_timestamp": 147.96968,
+        "end_timestamp": 148.25067
+      },
+      {
+        "text": "our",
+        "start_timestamp": 148.25067,
+        "end_timestamp": 148.49068
+      },
+      {
+        "text": "November",
+        "start_timestamp": 148.49068,
+        "end_timestamp": 149.09067
+      },
+      {
+        "text": "15th",
+        "start_timestamp": 149.09067,
+        "end_timestamp": 149.69067
+      },
+      {
+        "text": "target",
+        "start_timestamp": 149.85068,
+        "end_timestamp": 150.25067
+      },
+      {
+        "text": "date",
+        "start_timestamp": 150.49068,
+        "end_timestamp": 150.97067
+      },
+      {
+        "text": "at",
+        "start_timestamp": 151.37068,
+        "end_timestamp": 151.69067
+      },
+      {
+        "text": "a",
+        "start_timestamp": 151.69067,
+        "end_timestamp": 151.89067
+      },
+      {
+        "text": "high",
+        "start_timestamp": 151.89067,
+        "end_timestamp": 152.13068
+      },
+      {
+        "text": "risk.",
+        "start_timestamp": 152.13068,
+        "end_timestamp": 152.49068
+      }
+    ]
+  },
+  {
+    "speaker": "Gerald Villaran",
+    "words": [
+      {
+        "text": "High",
+        "start_timestamp": 167.78067,
+        "end_timestamp": 167.98067
+      },
+      {
+        "text": "risk",
+        "start_timestamp": 167.98067,
+        "end_timestamp": 168.34067
+      },
+      {
+        "text": "is",
+        "start_timestamp": 168.42067,
+        "end_timestamp": 168.78067
+      },
+      {
+        "text": "not",
+        "start_timestamp": 168.78067,
+        "end_timestamp": 169.06067
+      },
+      {
+        "text": "what",
+        "start_timestamp": 169.06067,
+        "end_timestamp": 169.26068
+      },
+      {
+        "text": "I",
+        "start_timestamp": 169.26068,
+        "end_timestamp": 169.46068
+      },
+      {
+        "text": "wanted",
+        "start_timestamp": 169.46068,
+        "end_timestamp": 169.90068
+      },
+      {
+        "text": "to",
+        "start_timestamp": 169.90068,
+        "end_timestamp": 170.10068
+      },
+      {
+        "text": "hear.",
+        "start_timestamp": 170.10068,
+        "end_timestamp": 170.42067
+      },
+      {
+        "text": "What's",
+        "start_timestamp": 171.30067,
+        "end_timestamp": 171.74068
+      },
+      {
+        "text": "the",
+        "start_timestamp": 171.74068,
+        "end_timestamp": 172.02068
+      },
+      {
+        "text": "realistic",
+        "start_timestamp": 172.10068,
+        "end_timestamp": 172.98067
+      },
+      {
+        "text": "worst",
+        "start_timestamp": 173.13968,
+        "end_timestamp": 173.57968
+      },
+      {
+        "text": "case",
+        "start_timestamp": 173.57968,
+        "end_timestamp": 173.90068
+      },
+      {
+        "text": "delay?",
+        "start_timestamp": 173.90068,
+        "end_timestamp": 174.42067
+      },
+      {
+        "text": "We",
+        "start_timestamp": 174.90068,
+        "end_timestamp": 175.18068
+      },
+      {
+        "text": "need",
+        "start_timestamp": 175.18068,
+        "end_timestamp": 175.34067
+      },
+      {
+        "text": "to",
+        "start_timestamp": 175.34067,
+        "end_timestamp": 175.50067
+      },
+      {
+        "text": "get",
+        "start_timestamp": 175.50067,
+        "end_timestamp": 175.70067
+      },
+      {
+        "text": "this",
+        "start_timestamp": 175.70067,
+        "end_timestamp": 175.94067
+      },
+      {
+        "text": "to",
+        "start_timestamp": 175.94067,
+        "end_timestamp": 176.14067
+      },
+      {
+        "text": "our",
+        "start_timestamp": 176.14067,
+        "end_timestamp": 176.38068
+      },
+      {
+        "text": "early",
+        "start_timestamp": 176.38068,
+        "end_timestamp": 176.70067
+      },
+      {
+        "text": "access",
+        "start_timestamp": 176.70067,
+        "end_timestamp": 177.06067
+      },
+      {
+        "text": "partners",
+        "start_timestamp": 177.22067,
+        "end_timestamp": 177.78067
+      },
+      {
+        "text": "by",
+        "start_timestamp": 177.78067,
+        "end_timestamp": 178.06067
+      },
+      {
+        "text": "the",
+        "start_timestamp": 178.06067,
+        "end_timestamp": 178.22067
+      },
+      {
+        "text": "end",
+        "start_timestamp": 178.22067,
+        "end_timestamp": 178.42067
+      },
+      {
+        "text": "of",
+        "start_timestamp": 178.42067,
+        "end_timestamp": 178.58067
+      },
+      {
+        "text": "the",
+        "start_timestamp": 178.58067,
+        "end_timestamp": 178.74068
+      },
+      {
+        "text": "year,",
+        "start_timestamp": 178.74068,
+        "end_timestamp": 179.06067
+      },
+      {
+        "text": "ideally",
+        "start_timestamp": 179.86067,
+        "end_timestamp": 180.38068
+      },
+      {
+        "text": "before",
+        "start_timestamp": 180.38068,
+        "end_timestamp": 180.70067
+      },
+      {
+        "text": "December.",
+        "start_timestamp": 180.70067,
+        "end_timestamp": 181.22067
+      },
+      {
+        "text": "Tenth.",
+        "start_timestamp": 181.67368,
+        "end_timestamp": 182.07367
+      },
+      {
+        "text": "Can",
+        "start_timestamp": 182.87367,
+        "end_timestamp": 183.15367
+      },
+      {
+        "text": "we",
+        "start_timestamp": 183.15367,
+        "end_timestamp": 183.35367
+      },
+      {
+        "text": "possibly",
+        "start_timestamp": 183.35367,
+        "end_timestamp": 183.87367
+      },
+      {
+        "text": "outsource",
+        "start_timestamp": 183.87367,
+        "end_timestamp": 184.47368
+      },
+      {
+        "text": "the",
+        "start_timestamp": 184.47368,
+        "end_timestamp": 184.67368
+      },
+      {
+        "text": "remaining",
+        "start_timestamp": 184.67368,
+        "end_timestamp": 185.11368
+      },
+      {
+        "text": "CICD",
+        "start_timestamp": 185.11368,
+        "end_timestamp": 185.91368
+      },
+      {
+        "text": "work",
+        "start_timestamp": 185.91368,
+        "end_timestamp": 186.23367
+      },
+      {
+        "text": "to",
+        "start_timestamp": 186.23367,
+        "end_timestamp": 186.47368
+      },
+      {
+        "text": "a",
+        "start_timestamp": 186.47368,
+        "end_timestamp": 186.59367
+      },
+      {
+        "text": "third",
+        "start_timestamp": 186.59367,
+        "end_timestamp": 186.87367
+      },
+      {
+        "text": "party",
+        "start_timestamp": 186.87367,
+        "end_timestamp": 187.27368
+      },
+      {
+        "text": "contractor",
+        "start_timestamp": 187.27368,
+        "end_timestamp": 187.95367
+      },
+      {
+        "text": "for",
+        "start_timestamp": 187.95367,
+        "end_timestamp": 188.11368
+      },
+      {
+        "text": "a",
+        "start_timestamp": 188.11368,
+        "end_timestamp": 188.27368
+      },
+      {
+        "text": "quick",
+        "start_timestamp": 188.27368,
+        "end_timestamp": 188.51367
+      },
+      {
+        "text": "push?",
+        "start_timestamp": 188.51367,
+        "end_timestamp": 188.95367
+      },
+      {
+        "text": "What's",
+        "start_timestamp": 189.59367,
+        "end_timestamp": 189.99367
+      },
+      {
+        "text": "the",
+        "start_timestamp": 189.99367,
+        "end_timestamp": 190.11368
+      },
+      {
+        "text": "bottleneck",
+        "start_timestamp": 190.11368,
+        "end_timestamp": 190.71367
+      },
+      {
+        "text": "exactly?",
+        "start_timestamp": 190.71367,
+        "end_timestamp": 191.35367
+      },
+      {
+        "text": "Is",
+        "start_timestamp": 191.51367,
+        "end_timestamp": 191.79367
+      },
+      {
+        "text": "it",
+        "start_timestamp": 191.79367,
+        "end_timestamp": 191.99367
+      },
+      {
+        "text": "purely",
+        "start_timestamp": 191.99367,
+        "end_timestamp": 192.43367
+      },
+      {
+        "text": "configuration?",
+        "start_timestamp": 192.43367,
+        "end_timestamp": 193.35367
+      }
+    ]
+  },
+  {
+    "speaker": "David",
+    "words": [
+      {
+        "text": "It's",
+        "start_timestamp": 213.12367,
+        "end_timestamp": 213.40367
+      },
+      {
+        "text": "the",
+        "start_timestamp": 213.40367,
+        "end_timestamp": 213.56367
+      },
+      {
+        "text": "data",
+        "start_timestamp": 213.56367,
+        "end_timestamp": 213.84367
+      },
+      {
+        "text": "pipeline",
+        "start_timestamp": 213.84367,
+        "end_timestamp": 214.48367
+      },
+      {
+        "text": "validation",
+        "start_timestamp": 214.48367,
+        "end_timestamp": 215.04367
+      },
+      {
+        "text": "within",
+        "start_timestamp": 215.04367,
+        "end_timestamp": 215.40367
+      },
+      {
+        "text": "the",
+        "start_timestamp": 215.40367,
+        "end_timestamp": 215.64368
+      },
+      {
+        "text": "container",
+        "start_timestamp": 215.64368,
+        "end_timestamp": 216.16368
+      },
+      {
+        "text": "environment,",
+        "start_timestamp": 216.16368,
+        "end_timestamp": 216.48367
+      },
+      {
+        "text": "specifically",
+        "start_timestamp": 217.28368,
+        "end_timestamp": 218.08368
+      },
+      {
+        "text": "validating",
+        "start_timestamp": 218.48367,
+        "end_timestamp": 219.16368
+      },
+      {
+        "text": "the",
+        "start_timestamp": 219.16368,
+        "end_timestamp": 219.40367
+      },
+      {
+        "text": "large",
+        "start_timestamp": 219.40367,
+        "end_timestamp": 219.68367
+      },
+      {
+        "text": "Amazon",
+        "start_timestamp": 220.00368,
+        "end_timestamp": 220.56367
+      },
+      {
+        "text": "S3",
+        "start_timestamp": 220.56367,
+        "end_timestamp": 221.04367
+      },
+      {
+        "text": "buckets.",
+        "start_timestamp": 221.04367,
+        "end_timestamp": 221.60367
+      },
+      {
+        "text": "I'd",
+        "start_timestamp": 221.92368,
+        "end_timestamp": 222.32367
+      },
+      {
+        "text": "estimate",
+        "start_timestamp": 222.32367,
+        "end_timestamp": 222.72368
+      },
+      {
+        "text": "a",
+        "start_timestamp": 222.72368,
+        "end_timestamp": 222.96268
+      },
+      {
+        "text": "minimum",
+        "start_timestamp": 222.96268,
+        "end_timestamp": 223.44368
+      },
+      {
+        "text": "10",
+        "start_timestamp": 223.52368,
+        "end_timestamp": 223.84367
+      },
+      {
+        "text": "day",
+        "start_timestamp": 223.84367,
+        "end_timestamp": 224.12367
+      },
+      {
+        "text": "delay",
+        "start_timestamp": 224.12367,
+        "end_timestamp": 224.64368
+      },
+      {
+        "text": "even",
+        "start_timestamp": 224.80368,
+        "end_timestamp": 225.16368
+      },
+      {
+        "text": "with",
+        "start_timestamp": 225.16368,
+        "end_timestamp": 225.44368
+      },
+      {
+        "text": "John",
+        "start_timestamp": 225.44368,
+        "end_timestamp": 225.76367
+      },
+      {
+        "text": "and",
+        "start_timestamp": 225.76367,
+        "end_timestamp": 226.08368
+      },
+      {
+        "text": "Maria",
+        "start_timestamp": 226.08368,
+        "end_timestamp": 226.56367
+      },
+      {
+        "text": "working",
+        "start_timestamp": 226.56367,
+        "end_timestamp": 226.88367
+      },
+      {
+        "text": "overtime.",
+        "start_timestamp": 226.88367,
+        "end_timestamp": 227.68367
+      },
+      {
+        "text": "We",
+        "start_timestamp": 228.08368,
+        "end_timestamp": 228.40367
+      },
+      {
+        "text": "absolutely",
+        "start_timestamp": 228.40367,
+        "end_timestamp": 229.08368
+      },
+      {
+        "text": "do",
+        "start_timestamp": 229.08368,
+        "end_timestamp": 229.32367
+      },
+      {
+        "text": "not",
+        "start_timestamp": 229.32367,
+        "end_timestamp": 229.52368
+      },
+      {
+        "text": "need",
+        "start_timestamp": 229.52368,
+        "end_timestamp": 229.76367
+      },
+      {
+        "text": "an",
+        "start_timestamp": 229.76367,
+        "end_timestamp": 229.96367
+      },
+      {
+        "text": "external",
+        "start_timestamp": 229.96367,
+        "end_timestamp": 230.48367
+      },
+      {
+        "text": "team.",
+        "start_timestamp": 230.48367,
+        "end_timestamp": 230.80368
+      },
+      {
+        "text": "They'd",
+        "start_timestamp": 230.96367,
+        "end_timestamp": 231.40367
+      },
+      {
+        "text": "spend",
+        "start_timestamp": 231.40367,
+        "end_timestamp": 231.72368
+      },
+      {
+        "text": "five",
+        "start_timestamp": 231.72368,
+        "end_timestamp": 232.00368
+      },
+      {
+        "text": "days",
+        "start_timestamp": 232.00368,
+        "end_timestamp": 232.32367
+      },
+      {
+        "text": "just",
+        "start_timestamp": 232.32367,
+        "end_timestamp": 232.64368
+      },
+      {
+        "text": "getting",
+        "start_timestamp": 232.64368,
+        "end_timestamp": 232.92368
+      },
+      {
+        "text": "up",
+        "start_timestamp": 232.92368,
+        "end_timestamp": 233.20367
+      },
+      {
+        "text": "to",
+        "start_timestamp": 233.20367,
+        "end_timestamp": 233.40367
+      },
+      {
+        "text": "speed",
+        "start_timestamp": 233.40367,
+        "end_timestamp": 233.76367
+      },
+      {
+        "text": "on",
+        "start_timestamp": 233.76367,
+        "end_timestamp": 234.00368
+      },
+      {
+        "text": "our",
+        "start_timestamp": 234.00368,
+        "end_timestamp": 234.24367
+      },
+      {
+        "text": "internal",
+        "start_timestamp": 234.24367,
+        "end_timestamp": 234.72368
+      },
+      {
+        "text": "stack.",
+        "start_timestamp": 234.72368,
+        "end_timestamp": 235.12367
+      },
+      {
+        "text": "We",
+        "start_timestamp": 236.11368,
+        "end_timestamp": 236.23367
+      },
+      {
+        "text": "need",
+        "start_timestamp": 236.23367,
+        "end_timestamp": 236.39368
+      },
+      {
+        "text": "to",
+        "start_timestamp": 236.39368,
+        "end_timestamp": 236.55368
+      },
+      {
+        "text": "stay",
+        "start_timestamp": 236.55368,
+        "end_timestamp": 236.83368
+      },
+      {
+        "text": "in",
+        "start_timestamp": 236.83368,
+        "end_timestamp": 237.15367
+      },
+      {
+        "text": "house",
+        "start_timestamp": 237.15367,
+        "end_timestamp": 237.47368
+      },
+      {
+        "text": "for",
+        "start_timestamp": 237.71367,
+        "end_timestamp": 237.99367
+      },
+      {
+        "text": "this",
+        "start_timestamp": 237.99367,
+        "end_timestamp": 238.23367
+      },
+      {
+        "text": "critical",
+        "start_timestamp": 238.23367,
+        "end_timestamp": 238.79367
+      },
+      {
+        "text": "path.",
+        "start_timestamp": 238.79367,
+        "end_timestamp": 239.23367
+      }
+    ]
+  },
+  {
+    "speaker": "Gerald Villaran",
+    "words": [
+      {
+        "text": "Okay,",
+        "start_timestamp": 250.83368,
+        "end_timestamp": 251.47368
+      },
+      {
+        "text": "let's",
+        "start_timestamp": 251.63367,
+        "end_timestamp": 252.03368
+      },
+      {
+        "text": "revisit",
+        "start_timestamp": 252.03368,
+        "end_timestamp": 252.55368
+      },
+      {
+        "text": "the",
+        "start_timestamp": 252.55368,
+        "end_timestamp": 252.71367
+      },
+      {
+        "text": "10",
+        "start_timestamp": 252.71367,
+        "end_timestamp": 252.91368
+      },
+      {
+        "text": "day",
+        "start_timestamp": 252.91368,
+        "end_timestamp": 253.19368
+      },
+      {
+        "text": "estimate.",
+        "start_timestamp": 253.19368,
+        "end_timestamp": 253.63367
+      },
+      {
+        "text": "On",
+        "start_timestamp": 253.63367,
+        "end_timestamp": 253.87367
+      },
+      {
+        "text": "Friday",
+        "start_timestamp": 253.87367,
+        "end_timestamp": 254.19368
+      },
+      {
+        "text": "I'll",
+        "start_timestamp": 254.75368,
+        "end_timestamp": 255.11368
+      },
+      {
+        "text": "talk",
+        "start_timestamp": 255.11368,
+        "end_timestamp": 255.27368
+      },
+      {
+        "text": "to",
+        "start_timestamp": 255.27368,
+        "end_timestamp": 255.47368
+      },
+      {
+        "text": "CEO",
+        "start_timestamp": 255.47368,
+        "end_timestamp": 256.0737
+      },
+      {
+        "text": "James",
+        "start_timestamp": 256.0737,
+        "end_timestamp": 256.5137
+      },
+      {
+        "text": "about",
+        "start_timestamp": 256.5137,
+        "end_timestamp": 256.9137
+      },
+      {
+        "text": "budget",
+        "start_timestamp": 256.9137,
+        "end_timestamp": 257.4337
+      },
+      {
+        "text": "flexibility.",
+        "start_timestamp": 257.4337,
+        "end_timestamp": 258.0337
+      },
+      {
+        "text": "Sarah,",
+        "start_timestamp": 258.9137,
+        "end_timestamp": 259.6337
+      },
+      {
+        "text": "let's",
+        "start_timestamp": 259.9537,
+        "end_timestamp": 260.39368
+      },
+      {
+        "text": "switch",
+        "start_timestamp": 260.39368,
+        "end_timestamp": 260.71368
+      },
+      {
+        "text": "gears.",
+        "start_timestamp": 260.71368,
+        "end_timestamp": 261.1537
+      },
+      {
+        "text": "Tell",
+        "start_timestamp": 261.3137,
+        "end_timestamp": 261.5937
+      },
+      {
+        "text": "us",
+        "start_timestamp": 261.5937,
+        "end_timestamp": 261.7937
+      },
+      {
+        "text": "about",
+        "start_timestamp": 261.7937,
+        "end_timestamp": 262.0337
+      },
+      {
+        "text": "the",
+        "start_timestamp": 262.0337,
+        "end_timestamp": 262.2337
+      },
+      {
+        "text": "marketing",
+        "start_timestamp": 262.2337,
+        "end_timestamp": 262.67368
+      },
+      {
+        "text": "narrative.",
+        "start_timestamp": 262.67368,
+        "end_timestamp": 263.2337
+      },
+      {
+        "text": "Something",
+        "start_timestamp": 263.6837,
+        "end_timestamp": 263.8837
+      },
+      {
+        "text": "to",
+        "start_timestamp": 263.8837,
+        "end_timestamp": 264.1237
+      },
+      {
+        "text": "lift",
+        "start_timestamp": 264.1237,
+        "end_timestamp": 264.4037
+      },
+      {
+        "text": "our",
+        "start_timestamp": 264.4037,
+        "end_timestamp": 264.6037
+      },
+      {
+        "text": "spirits",
+        "start_timestamp": 264.6037,
+        "end_timestamp": 265.1237
+      },
+      {
+        "text": "perhaps?",
+        "start_timestamp": 265.1237,
+        "end_timestamp": 265.6837
+      }
+    ]
+  },
+  {
+    "speaker": "Charlie Mike V",
+    "words": [
+      {
+        "text": "Absolutely.",
+        "start_timestamp": 277.6037,
+        "end_timestamp": 278.4837
+      },
+      {
+        "text": "I",
+        "start_timestamp": 278.7237,
+        "end_timestamp": 279.0437
+      },
+      {
+        "text": "had",
+        "start_timestamp": 279.0437,
+        "end_timestamp": 279.2837
+      },
+      {
+        "text": "a",
+        "start_timestamp": 279.2837,
+        "end_timestamp": 279.4827
+      },
+      {
+        "text": "fantastic",
+        "start_timestamp": 279.4827,
+        "end_timestamp": 280.08368
+      },
+      {
+        "text": "call",
+        "start_timestamp": 280.08368,
+        "end_timestamp": 280.36368
+      },
+      {
+        "text": "with",
+        "start_timestamp": 280.36368,
+        "end_timestamp": 280.6037
+      },
+      {
+        "text": "the",
+        "start_timestamp": 280.6037,
+        "end_timestamp": 280.80368
+      },
+      {
+        "text": "AI",
+        "start_timestamp": 280.80368,
+        "end_timestamp": 281.2837
+      },
+      {
+        "text": "Digest",
+        "start_timestamp": 281.2837,
+        "end_timestamp": 281.80368
+      },
+      {
+        "text": "magazine.",
+        "start_timestamp": 281.80368,
+        "end_timestamp": 282.4837
+      },
+      {
+        "text": "They",
+        "start_timestamp": 282.96368,
+        "end_timestamp": 283.24368
+      },
+      {
+        "text": "are",
+        "start_timestamp": 283.24368,
+        "end_timestamp": 283.4837
+      },
+      {
+        "text": "very",
+        "start_timestamp": 283.4837,
+        "end_timestamp": 283.8437
+      },
+      {
+        "text": "interested",
+        "start_timestamp": 283.8437,
+        "end_timestamp": 284.5637
+      },
+      {
+        "text": "in",
+        "start_timestamp": 284.5637,
+        "end_timestamp": 284.96368
+      },
+      {
+        "text": "an",
+        "start_timestamp": 285.6037,
+        "end_timestamp": 285.96368
+      },
+      {
+        "text": "exclusive",
+        "start_timestamp": 285.96368,
+        "end_timestamp": 286.7637
+      },
+      {
+        "text": "feature.",
+        "start_timestamp": 286.7637,
+        "end_timestamp": 287.2037
+      },
+      {
+        "text": "Our",
+        "start_timestamp": 287.8437,
+        "end_timestamp": 288.2037
+      },
+      {
+        "text": "main",
+        "start_timestamp": 288.2037,
+        "end_timestamp": 288.52368
+      },
+      {
+        "text": "message",
+        "start_timestamp": 288.52368,
+        "end_timestamp": 288.92368
+      },
+      {
+        "text": "is",
+        "start_timestamp": 288.92368,
+        "end_timestamp": 289.1637
+      },
+      {
+        "text": "focusing",
+        "start_timestamp": 289.1637,
+        "end_timestamp": 289.64368
+      },
+      {
+        "text": "on",
+        "start_timestamp": 289.64368,
+        "end_timestamp": 289.80368
+      },
+      {
+        "text": "how",
+        "start_timestamp": 289.80368,
+        "end_timestamp": 290.0037
+      },
+      {
+        "text": "Clarity",
+        "start_timestamp": 290.0037,
+        "end_timestamp": 290.64368
+      },
+      {
+        "text": "Engine",
+        "start_timestamp": 290.64368,
+        "end_timestamp": 291.2037
+      },
+      {
+        "text": "democratizes",
+        "start_timestamp": 291.8437,
+        "end_timestamp": 292.7637
+      },
+      {
+        "text": "advanced",
+        "start_timestamp": 292.7637,
+        "end_timestamp": 293.36368
+      },
+      {
+        "text": "text",
+        "start_timestamp": 293.36368,
+        "end_timestamp": 293.7637
+      },
+      {
+        "text": "analysis,",
+        "start_timestamp": 293.8437,
+        "end_timestamp": 294.5637
+      },
+      {
+        "text": "making",
+        "start_timestamp": 294.8837,
+        "end_timestamp": 295.2037
+      },
+      {
+        "text": "it",
+        "start_timestamp": 295.2037,
+        "end_timestamp": 295.4437
+      },
+      {
+        "text": "easy,",
+        "start_timestamp": 295.4437,
+        "end_timestamp": 295.8837
+      },
+      {
+        "text": "intuitive",
+        "start_timestamp": 295.8837,
+        "end_timestamp": 296.4437
+      },
+      {
+        "text": "and",
+        "start_timestamp": 296.4437,
+        "end_timestamp": 296.80368
+      },
+      {
+        "text": "affordable",
+        "start_timestamp": 296.80368,
+        "end_timestamp": 297.4037
+      },
+      {
+        "text": "for",
+        "start_timestamp": 297.4037,
+        "end_timestamp": 297.6037
+      },
+      {
+        "text": "smaller",
+        "start_timestamp": 297.6037,
+        "end_timestamp": 298.1637
+      },
+      {
+        "text": "teams.",
+        "start_timestamp": 298.1637,
+        "end_timestamp": 298.7237
+      },
+      {
+        "text": "We're",
+        "start_timestamp": 299.0437,
+        "end_timestamp": 299.36368
+      },
+      {
+        "text": "calling",
+        "start_timestamp": 299.36368,
+        "end_timestamp": 299.6837
+      },
+      {
+        "text": "this",
+        "start_timestamp": 299.6837,
+        "end_timestamp": 300.0037
+      },
+      {
+        "text": "the",
+        "start_timestamp": 300.1637,
+        "end_timestamp": 300.52368
+      },
+      {
+        "text": "NLP",
+        "start_timestamp": 300.52368,
+        "end_timestamp": 301.2037
+      },
+      {
+        "text": "for",
+        "start_timestamp": 301.2037,
+        "end_timestamp": 301.52368
+      },
+      {
+        "text": "Everyone",
+        "start_timestamp": 301.52368,
+        "end_timestamp": 301.92368
+      },
+      {
+        "text": "campaign.",
+        "start_timestamp": 302.1637,
+        "end_timestamp": 302.5637
+      }
+    ]
+  },
+  {
+    "speaker": "David",
+    "words": [
+      {
+        "text": "I",
+        "start_timestamp": 319.4537,
+        "end_timestamp": 319.5737
+      },
+      {
+        "text": "like",
+        "start_timestamp": 319.5737,
+        "end_timestamp": 319.77368
+      },
+      {
+        "text": "the",
+        "start_timestamp": 319.77368,
+        "end_timestamp": 320.05368
+      },
+      {
+        "text": "NLP",
+        "start_timestamp": 320.05368,
+        "end_timestamp": 320.6937
+      },
+      {
+        "text": "for",
+        "start_timestamp": 320.6937,
+        "end_timestamp": 320.9737
+      },
+      {
+        "text": "Everyone",
+        "start_timestamp": 320.9737,
+        "end_timestamp": 321.2937
+      },
+      {
+        "text": "angle,",
+        "start_timestamp": 321.5337,
+        "end_timestamp": 322.0137
+      },
+      {
+        "text": "but",
+        "start_timestamp": 322.0137,
+        "end_timestamp": 322.2937
+      },
+      {
+        "text": "are",
+        "start_timestamp": 322.2937,
+        "end_timestamp": 322.5337
+      },
+      {
+        "text": "we",
+        "start_timestamp": 322.5337,
+        "end_timestamp": 322.77368
+      },
+      {
+        "text": "sure",
+        "start_timestamp": 322.77368,
+        "end_timestamp": 323.0937
+      },
+      {
+        "text": "the",
+        "start_timestamp": 323.0937,
+        "end_timestamp": 323.33368
+      },
+      {
+        "text": "model",
+        "start_timestamp": 323.33368,
+        "end_timestamp": 323.6537
+      },
+      {
+        "text": "is",
+        "start_timestamp": 323.6537,
+        "end_timestamp": 323.8537
+      },
+      {
+        "text": "easy",
+        "start_timestamp": 323.8537,
+        "end_timestamp": 324.2537
+      },
+      {
+        "text": "enough?",
+        "start_timestamp": 324.2537,
+        "end_timestamp": 324.5737
+      },
+      {
+        "text": "The",
+        "start_timestamp": 325.4537,
+        "end_timestamp": 325.7337
+      },
+      {
+        "text": "current",
+        "start_timestamp": 325.7337,
+        "end_timestamp": 326.0137
+      },
+      {
+        "text": "user",
+        "start_timestamp": 326.0937,
+        "end_timestamp": 326.5737
+      },
+      {
+        "text": "onboarding",
+        "start_timestamp": 326.5737,
+        "end_timestamp": 327.2537
+      },
+      {
+        "text": "requires",
+        "start_timestamp": 327.2537,
+        "end_timestamp": 327.77368
+      },
+      {
+        "text": "a",
+        "start_timestamp": 327.77368,
+        "end_timestamp": 327.9737
+      },
+      {
+        "text": "decent",
+        "start_timestamp": 327.9737,
+        "end_timestamp": 328.3737
+      },
+      {
+        "text": "understanding",
+        "start_timestamp": 328.3737,
+        "end_timestamp": 329.0137
+      },
+      {
+        "text": "of",
+        "start_timestamp": 329.0137,
+        "end_timestamp": 329.21368
+      },
+      {
+        "text": "API",
+        "start_timestamp": 329.21368,
+        "end_timestamp": 329.8137
+      },
+      {
+        "text": "configuration.",
+        "start_timestamp": 329.8137,
+        "end_timestamp": 330.5737
+      },
+      {
+        "text": "We",
+        "start_timestamp": 332.0137,
+        "end_timestamp": 332.2937
+      },
+      {
+        "text": "need",
+        "start_timestamp": 332.2937,
+        "end_timestamp": 332.4537
+      },
+      {
+        "text": "to",
+        "start_timestamp": 332.4537,
+        "end_timestamp": 332.6937
+      },
+      {
+        "text": "simplify",
+        "start_timestamp": 332.6937,
+        "end_timestamp": 333.21368
+      },
+      {
+        "text": "that",
+        "start_timestamp": 333.4537,
+        "end_timestamp": 333.8537
+      },
+      {
+        "text": "before",
+        "start_timestamp": 333.9337,
+        "end_timestamp": 334.2937
+      },
+      {
+        "text": "you",
+        "start_timestamp": 334.2937,
+        "end_timestamp": 334.5737
+      },
+      {
+        "text": "promise",
+        "start_timestamp": 334.5737,
+        "end_timestamp": 335.1337
+      },
+      {
+        "text": "easy",
+        "start_timestamp": 335.1337,
+        "end_timestamp": 335.7337
+      },
+      {
+        "text": "to",
+        "start_timestamp": 335.7337,
+        "end_timestamp": 336.0137
+      },
+      {
+        "text": "everybody.",
+        "start_timestamp": 336.0137,
+        "end_timestamp": 336.6537
+      }
+    ]
+  },
+  {
+    "speaker": "Charlie Mike V",
+    "words": [
+      {
+        "text": "That's",
+        "start_timestamp": 344.9037,
+        "end_timestamp": 345.30368
+      },
+      {
+        "text": "a",
+        "start_timestamp": 345.30368,
+        "end_timestamp": 345.5437
+      },
+      {
+        "text": "valid",
+        "start_timestamp": 345.5437,
+        "end_timestamp": 345.9437
+      },
+      {
+        "text": "point,",
+        "start_timestamp": 345.9437,
+        "end_timestamp": 346.2637
+      },
+      {
+        "text": "David.",
+        "start_timestamp": 346.74368,
+        "end_timestamp": 347.46368
+      },
+      {
+        "text": "Our",
+        "start_timestamp": 348.02368,
+        "end_timestamp": 348.3437
+      },
+      {
+        "text": "marketing",
+        "start_timestamp": 348.3437,
+        "end_timestamp": 348.9437
+      },
+      {
+        "text": "language",
+        "start_timestamp": 348.9437,
+        "end_timestamp": 349.3837
+      },
+      {
+        "text": "focuses",
+        "start_timestamp": 349.3837,
+        "end_timestamp": 349.9437
+      },
+      {
+        "text": "on",
+        "start_timestamp": 349.9437,
+        "end_timestamp": 350.1837
+      },
+      {
+        "text": "the",
+        "start_timestamp": 350.1837,
+        "end_timestamp": 350.42368
+      },
+      {
+        "text": "result",
+        "start_timestamp": 350.42368,
+        "end_timestamp": 350.6637
+      },
+      {
+        "text": "being",
+        "start_timestamp": 351.0637,
+        "end_timestamp": 351.42368
+      },
+      {
+        "text": "easy,",
+        "start_timestamp": 351.42368,
+        "end_timestamp": 352.1037
+      },
+      {
+        "text": "not",
+        "start_timestamp": 352.3437,
+        "end_timestamp": 352.6237
+      },
+      {
+        "text": "necessarily",
+        "start_timestamp": 352.6237,
+        "end_timestamp": 353.5437
+      },
+      {
+        "text": "the",
+        "start_timestamp": 353.5437,
+        "end_timestamp": 353.8237
+      },
+      {
+        "text": "setup.",
+        "start_timestamp": 353.8237,
+        "end_timestamp": 354.3437
+      },
+      {
+        "text": "We're",
+        "start_timestamp": 355.30368,
+        "end_timestamp": 355.7837
+      },
+      {
+        "text": "working",
+        "start_timestamp": 355.7837,
+        "end_timestamp": 356.1037
+      },
+      {
+        "text": "with",
+        "start_timestamp": 356.1037,
+        "end_timestamp": 356.5037
+      },
+      {
+        "text": "the",
+        "start_timestamp": 356.5037,
+        "end_timestamp": 356.7837
+      },
+      {
+        "text": "product",
+        "start_timestamp": 356.7837,
+        "end_timestamp": 357.0637
+      },
+      {
+        "text": "design",
+        "start_timestamp": 357.0637,
+        "end_timestamp": 357.46368
+      },
+      {
+        "text": "team",
+        "start_timestamp": 357.46368,
+        "end_timestamp": 357.7837
+      },
+      {
+        "text": "on",
+        "start_timestamp": 357.7837,
+        "end_timestamp": 358.1037
+      },
+      {
+        "text": "a",
+        "start_timestamp": 358.1037,
+        "end_timestamp": 358.3837
+      },
+      {
+        "text": "guided",
+        "start_timestamp": 358.3837,
+        "end_timestamp": 358.7027
+      },
+      {
+        "text": "setup",
+        "start_timestamp": 358.7027,
+        "end_timestamp": 359.1037
+      },
+      {
+        "text": "wizard",
+        "start_timestamp": 359.1037,
+        "end_timestamp": 359.7037
+      },
+      {
+        "text": "for",
+        "start_timestamp": 359.86368,
+        "end_timestamp": 360.14368
+      },
+      {
+        "text": "the",
+        "start_timestamp": 360.14368,
+        "end_timestamp": 360.30368
+      },
+      {
+        "text": "Q1",
+        "start_timestamp": 360.30368,
+        "end_timestamp": 360.89767
+      },
+      {
+        "text": "2000.",
+        "start_timestamp": 361.0297,
+        "end_timestamp": 361.6237
+      },
+      {
+        "text": "For",
+        "start_timestamp": 363.2967,
+        "end_timestamp": 363.53668
+      },
+      {
+        "text": "the",
+        "start_timestamp": 363.53668,
+        "end_timestamp": 363.8567
+      },
+      {
+        "text": "Q1",
+        "start_timestamp": 363.8567,
+        "end_timestamp": 364.5767
+      },
+      {
+        "text": "2026",
+        "start_timestamp": 364.7367,
+        "end_timestamp": 365.4567
+      },
+      {
+        "text": "launch",
+        "start_timestamp": 365.4567,
+        "end_timestamp": 365.8567
+      },
+      {
+        "text": "phase,",
+        "start_timestamp": 365.8567,
+        "end_timestamp": 366.3367
+      },
+      {
+        "text": "which",
+        "start_timestamp": 367.0567,
+        "end_timestamp": 367.37668
+      },
+      {
+        "text": "will",
+        "start_timestamp": 367.37668,
+        "end_timestamp": 367.6167
+      },
+      {
+        "text": "address",
+        "start_timestamp": 367.6167,
+        "end_timestamp": 367.93668
+      },
+      {
+        "text": "those",
+        "start_timestamp": 368.1767,
+        "end_timestamp": 368.53668
+      },
+      {
+        "text": "concerns",
+        "start_timestamp": 368.53668,
+        "end_timestamp": 369.09668
+      },
+      {
+        "text": "entirely.",
+        "start_timestamp": 369.09668,
+        "end_timestamp": 369.7767
+      },
+      {
+        "text": "For",
+        "start_timestamp": 370.4167,
+        "end_timestamp": 370.7367
+      },
+      {
+        "text": "the",
+        "start_timestamp": 370.7367,
+        "end_timestamp": 370.93668
+      },
+      {
+        "text": "initial",
+        "start_timestamp": 370.93668,
+        "end_timestamp": 371.2967
+      },
+      {
+        "text": "launch,",
+        "start_timestamp": 371.2967,
+        "end_timestamp": 371.6167
+      },
+      {
+        "text": "the",
+        "start_timestamp": 371.6167,
+        "end_timestamp": 371.8967
+      },
+      {
+        "text": "focus",
+        "start_timestamp": 371.8967,
+        "end_timestamp": 372.1367
+      },
+      {
+        "text": "is",
+        "start_timestamp": 372.1367,
+        "end_timestamp": 372.4167
+      },
+      {
+        "text": "on",
+        "start_timestamp": 372.4167,
+        "end_timestamp": 372.65668
+      },
+      {
+        "text": "the",
+        "start_timestamp": 372.65668,
+        "end_timestamp": 372.8967
+      },
+      {
+        "text": "power",
+        "start_timestamp": 372.8967,
+        "end_timestamp": 373.1767
+      },
+      {
+        "text": "of",
+        "start_timestamp": 373.1767,
+        "end_timestamp": 373.4167
+      },
+      {
+        "text": "the",
+        "start_timestamp": 373.4167,
+        "end_timestamp": 373.5767
+      },
+      {
+        "text": "insights,",
+        "start_timestamp": 373.5767,
+        "end_timestamp": 374.3367
+      }
+    ]
+  },
+  {
+    "speaker": "Gerald Villaran",
+    "words": [
+      {
+        "text": "the",
+        "start_timestamp": 384.25668,
+        "end_timestamp": 384.5767
+      },
+      {
+        "text": "power",
+        "start_timestamp": 384.5767,
+        "end_timestamp": 384.8567
+      },
+      {
+        "text": "of",
+        "start_timestamp": 384.8567,
+        "end_timestamp": 385.09668
+      },
+      {
+        "text": "the",
+        "start_timestamp": 385.09668,
+        "end_timestamp": 385.25668
+      },
+      {
+        "text": "insights",
+        "start_timestamp": 385.25668,
+        "end_timestamp": 385.8567
+      },
+      {
+        "text": "and",
+        "start_timestamp": 385.8567,
+        "end_timestamp": 386.09668
+      },
+      {
+        "text": "how",
+        "start_timestamp": 386.09668,
+        "end_timestamp": 386.37668
+      },
+      {
+        "text": "fast",
+        "start_timestamp": 386.37668,
+        "end_timestamp": 386.81668
+      },
+      {
+        "text": "we",
+        "start_timestamp": 388.0567,
+        "end_timestamp": 388.21667
+      },
+      {
+        "text": "can",
+        "start_timestamp": 388.21667,
+        "end_timestamp": 388.53668
+      },
+      {
+        "text": "deliver",
+        "start_timestamp": 388.53668,
+        "end_timestamp": 388.93668
+      },
+      {
+        "text": "them.",
+        "start_timestamp": 389.0167,
+        "end_timestamp": 389.4167
+      },
+      {
+        "text": "David,",
+        "start_timestamp": 389.81668,
+        "end_timestamp": 390.4567
+      },
+      {
+        "text": "getting",
+        "start_timestamp": 390.4567,
+        "end_timestamp": 390.81668
+      },
+      {
+        "text": "the",
+        "start_timestamp": 390.81668,
+        "end_timestamp": 391.0567
+      },
+      {
+        "text": "data",
+        "start_timestamp": 391.0567,
+        "end_timestamp": 391.2967
+      },
+      {
+        "text": "validation",
+        "start_timestamp": 391.2967,
+        "end_timestamp": 391.93668
+      },
+      {
+        "text": "smoothed",
+        "start_timestamp": 391.93668,
+        "end_timestamp": 392.4967
+      },
+      {
+        "text": "out",
+        "start_timestamp": 392.4967,
+        "end_timestamp": 392.7367
+      },
+      {
+        "text": "is",
+        "start_timestamp": 392.7367,
+        "end_timestamp": 393.09668
+      },
+      {
+        "text": "paramount.",
+        "start_timestamp": 393.09668,
+        "end_timestamp": 393.81668
+      },
+      {
+        "text": "Could",
+        "start_timestamp": 394.0567,
+        "end_timestamp": 394.3367
+      },
+      {
+        "text": "you",
+        "start_timestamp": 394.3367,
+        "end_timestamp": 394.53668
+      },
+      {
+        "text": "send",
+        "start_timestamp": 394.53668,
+        "end_timestamp": 394.8967
+      },
+      {
+        "text": "me",
+        "start_timestamp": 394.8967,
+        "end_timestamp": 395.21667
+      },
+      {
+        "text": "a",
+        "start_timestamp": 395.21667,
+        "end_timestamp": 395.4967
+      },
+      {
+        "text": "concise",
+        "start_timestamp": 395.4967,
+        "end_timestamp": 396.0567
+      },
+      {
+        "text": "breakdown",
+        "start_timestamp": 396.0567,
+        "end_timestamp": 396.6967
+      },
+      {
+        "text": "of",
+        "start_timestamp": 396.6967,
+        "end_timestamp": 396.8967
+      },
+      {
+        "text": "the",
+        "start_timestamp": 396.8967,
+        "end_timestamp": 397.0567
+      },
+      {
+        "text": "three",
+        "start_timestamp": 397.0567,
+        "end_timestamp": 397.2967
+      },
+      {
+        "text": "core",
+        "start_timestamp": 397.2967,
+        "end_timestamp": 397.7367
+      },
+      {
+        "text": "technical",
+        "start_timestamp": 397.7367,
+        "end_timestamp": 398.1767
+      },
+      {
+        "text": "dependencies",
+        "start_timestamp": 398.1767,
+        "end_timestamp": 398.8967
+      },
+      {
+        "text": "by",
+        "start_timestamp": 398.8967,
+        "end_timestamp": 399.0567
+      },
+      {
+        "text": "2pm",
+        "start_timestamp": 399.0567,
+        "end_timestamp": 399.6167
+      },
+      {
+        "text": "today?",
+        "start_timestamp": 399.6167,
+        "end_timestamp": 399.97668
+      },
+      {
+        "text": "I",
+        "start_timestamp": 401.0167,
+        "end_timestamp": 401.2967
+      },
+      {
+        "text": "need",
+        "start_timestamp": 401.2967,
+        "end_timestamp": 401.4567
+      },
+      {
+        "text": "to",
+        "start_timestamp": 401.4567,
+        "end_timestamp": 401.6167
+      },
+      {
+        "text": "understand",
+        "start_timestamp": 401.6167,
+        "end_timestamp": 401.8967
+      },
+      {
+        "text": "the",
+        "start_timestamp": 401.97668,
+        "end_timestamp": 402.25668
+      },
+      {
+        "text": "risk.",
+        "start_timestamp": 402.25668,
+        "end_timestamp": 402.53668
+      },
+      {
+        "text": "I",
+        "start_timestamp": 403.3367,
+        "end_timestamp": 403.6157
+      },
+      {
+        "text": "need",
+        "start_timestamp": 403.6157,
+        "end_timestamp": 403.8567
+      },
+      {
+        "text": "to",
+        "start_timestamp": 403.8567,
+        "end_timestamp": 404.1367
+      },
+      {
+        "text": "understand",
+        "start_timestamp": 404.1367,
+        "end_timestamp": 404.4567
+      },
+      {
+        "text": "the",
+        "start_timestamp": 404.6167,
+        "end_timestamp": 404.97668
+      },
+      {
+        "text": "true",
+        "start_timestamp": 404.97668,
+        "end_timestamp": 405.4567
+      },
+      {
+        "text": "risk",
+        "start_timestamp": 405.4567,
+        "end_timestamp": 405.81668
+      },
+      {
+        "text": "profile.",
+        "start_timestamp": 406.1367,
+        "end_timestamp": 406.7767
+      }
+    ]
+  },
+  {
+    "speaker": "David",
+    "words": [
+      {
+        "text": "Will",
+        "start_timestamp": 417.90668,
+        "end_timestamp": 418.06668
+      },
+      {
+        "text": "do,",
+        "start_timestamp": 418.06668,
+        "end_timestamp": 418.3067
+      },
+      {
+        "text": "Elena.",
+        "start_timestamp": 418.3067,
+        "end_timestamp": 419.0267
+      },
+      {
+        "text": "Three",
+        "start_timestamp": 419.50668,
+        "end_timestamp": 419.8667
+      },
+      {
+        "text": "core",
+        "start_timestamp": 419.8667,
+        "end_timestamp": 420.2667
+      },
+      {
+        "text": "dependencies,",
+        "start_timestamp": 420.2667,
+        "end_timestamp": 420.9467
+      },
+      {
+        "text": "clear",
+        "start_timestamp": 421.2667,
+        "end_timestamp": 421.62668
+      },
+      {
+        "text": "and",
+        "start_timestamp": 421.62668,
+        "end_timestamp": 421.90668
+      },
+      {
+        "text": "concise",
+        "start_timestamp": 421.90668,
+        "end_timestamp": 422.3867
+      },
+      {
+        "text": "by",
+        "start_timestamp": 422.3867,
+        "end_timestamp": 422.62668
+      },
+      {
+        "text": "2pm",
+        "start_timestamp": 422.62668,
+        "end_timestamp": 423.2667
+      }
+    ]
+  },
+  {
+    "speaker": "Gerald Villaran",
+    "words": [
+      {
+        "text": "Sarah.",
+        "start_timestamp": 431.4267,
+        "end_timestamp": 432.06668
+      },
+      {
+        "text": "On",
+        "start_timestamp": 432.06668,
+        "end_timestamp": 432.2667
+      },
+      {
+        "text": "the",
+        "start_timestamp": 432.2667,
+        "end_timestamp": 432.4267
+      },
+      {
+        "text": "narrative,",
+        "start_timestamp": 432.4267,
+        "end_timestamp": 433.0267
+      },
+      {
+        "text": "I'm",
+        "start_timestamp": 433.0267,
+        "end_timestamp": 433.4267
+      },
+      {
+        "text": "keen",
+        "start_timestamp": 433.4267,
+        "end_timestamp": 433.7067
+      },
+      {
+        "text": "to",
+        "start_timestamp": 433.7067,
+        "end_timestamp": 433.90668
+      },
+      {
+        "text": "highlight",
+        "start_timestamp": 433.90668,
+        "end_timestamp": 434.3067
+      },
+      {
+        "text": "the",
+        "start_timestamp": 434.3067,
+        "end_timestamp": 434.5467
+      },
+      {
+        "text": "ethical",
+        "start_timestamp": 434.5467,
+        "end_timestamp": 435.0267
+      },
+      {
+        "text": "AI",
+        "start_timestamp": 435.0267,
+        "end_timestamp": 435.5867
+      },
+      {
+        "text": "angle.",
+        "start_timestamp": 435.5867,
+        "end_timestamp": 436.1467
+      },
+      {
+        "text": "Our",
+        "start_timestamp": 436.3067,
+        "end_timestamp": 436.62668
+      },
+      {
+        "text": "commitment",
+        "start_timestamp": 436.62668,
+        "end_timestamp": 437.1467
+      },
+      {
+        "text": "to",
+        "start_timestamp": 437.1467,
+        "end_timestamp": 437.3067
+      },
+      {
+        "text": "bias",
+        "start_timestamp": 437.3067,
+        "end_timestamp": 437.7067
+      },
+      {
+        "text": "reduction",
+        "start_timestamp": 437.7067,
+        "end_timestamp": 438.18668
+      },
+      {
+        "text": "in",
+        "start_timestamp": 438.18668,
+        "end_timestamp": 438.34668
+      },
+      {
+        "text": "the",
+        "start_timestamp": 438.34668,
+        "end_timestamp": 438.50668
+      },
+      {
+        "text": "model.",
+        "start_timestamp": 438.50668,
+        "end_timestamp": 438.8667
+      },
+      {
+        "text": "Is",
+        "start_timestamp": 439.34668,
+        "end_timestamp": 439.5867
+      },
+      {
+        "text": "that",
+        "start_timestamp": 439.5867,
+        "end_timestamp": 439.9467
+      },
+      {
+        "text": "part",
+        "start_timestamp": 439.9467,
+        "end_timestamp": 440.18668
+      },
+      {
+        "text": "of",
+        "start_timestamp": 440.18668,
+        "end_timestamp": 440.3067
+      },
+      {
+        "text": "the",
+        "start_timestamp": 440.3067,
+        "end_timestamp": 440.46667
+      },
+      {
+        "text": "NLP",
+        "start_timestamp": 440.46667,
+        "end_timestamp": 440.9467
+      },
+      {
+        "text": "for",
+        "start_timestamp": 440.9467,
+        "end_timestamp": 441.18668
+      },
+      {
+        "text": "everyone",
+        "start_timestamp": 441.18668,
+        "end_timestamp": 441.50668
+      },
+      {
+        "text": "message?",
+        "start_timestamp": 441.6667,
+        "end_timestamp": 442.22668
+      }
+    ]
+  },
+  {
+    "speaker": "Charlie Mike V",
+    "words": [
+      {
+        "text": "Yes,",
+        "start_timestamp": 453.0267,
+        "end_timestamp": 453.46667
+      },
+      {
+        "text": "completely.",
+        "start_timestamp": 453.46667,
+        "end_timestamp": 454.1467
+      },
+      {
+        "text": "We",
+        "start_timestamp": 454.22668,
+        "end_timestamp": 454.50668
+      },
+      {
+        "text": "have",
+        "start_timestamp": 454.50668,
+        "end_timestamp": 454.6667
+      },
+      {
+        "text": "a",
+        "start_timestamp": 454.6667,
+        "end_timestamp": 454.94568
+      },
+      {
+        "text": "section",
+        "start_timestamp": 454.94568,
+        "end_timestamp": 455.50668
+      },
+      {
+        "text": "dedicated",
+        "start_timestamp": 455.50668,
+        "end_timestamp": 456.06668
+      },
+      {
+        "text": "to",
+        "start_timestamp": 456.06668,
+        "end_timestamp": 456.2667
+      },
+      {
+        "text": "our",
+        "start_timestamp": 456.2667,
+        "end_timestamp": 456.5467
+      },
+      {
+        "text": "training,",
+        "start_timestamp": 456.5467,
+        "end_timestamp": 456.9867
+      },
+      {
+        "text": "data",
+        "start_timestamp": 456.9867,
+        "end_timestamp": 457.3067
+      },
+      {
+        "text": "methodology",
+        "start_timestamp": 457.3067,
+        "end_timestamp": 457.9867
+      },
+      {
+        "text": "and",
+        "start_timestamp": 458.46667,
+        "end_timestamp": 458.8667
+      },
+      {
+        "text": "our",
+        "start_timestamp": 458.9467,
+        "end_timestamp": 459.3067
+      },
+      {
+        "text": "fairness",
+        "start_timestamp": 459.3067,
+        "end_timestamp": 459.8267
+      },
+      {
+        "text": "in",
+        "start_timestamp": 459.8267,
+        "end_timestamp": 460.0267
+      },
+      {
+        "text": "AI",
+        "start_timestamp": 460.0267,
+        "end_timestamp": 460.50668
+      },
+      {
+        "text": "internal",
+        "start_timestamp": 460.50668,
+        "end_timestamp": 460.9867
+      },
+      {
+        "text": "audit.",
+        "start_timestamp": 460.9867,
+        "end_timestamp": 461.5867
+      },
+      {
+        "text": "It's",
+        "start_timestamp": 461.90668,
+        "end_timestamp": 462.3067
+      },
+      {
+        "text": "a",
+        "start_timestamp": 462.3067,
+        "end_timestamp": 462.3867
+      },
+      {
+        "text": "huge",
+        "start_timestamp": 462.3867,
+        "end_timestamp": 462.7067
+      },
+      {
+        "text": "difference.",
+        "start_timestamp": 462.7067,
+        "end_timestamp": 463.4267
+      },
+      {
+        "text": "It's",
+        "start_timestamp": 463.90668,
+        "end_timestamp": 464.2667
+      },
+      {
+        "text": "a",
+        "start_timestamp": 464.2667,
+        "end_timestamp": 464.3867
+      },
+      {
+        "text": "huge",
+        "start_timestamp": 464.3867,
+        "end_timestamp": 464.7067
+      },
+      {
+        "text": "differentiator,",
+        "start_timestamp": 464.7067,
+        "end_timestamp": 465.90668
+      },
+      {
+        "text": "especially",
+        "start_timestamp": 466.43668,
+        "end_timestamp": 466.6767
+      },
+      {
+        "text": "against",
+        "start_timestamp": 466.9167,
+        "end_timestamp": 467.31668
+      },
+      {
+        "text": "competitors",
+        "start_timestamp": 467.6367,
+        "end_timestamp": 468.3567
+      },
+      {
+        "text": "like",
+        "start_timestamp": 468.3567,
+        "end_timestamp": 468.5567
+      },
+      {
+        "text": "Lexicorp",
+        "start_timestamp": 468.5567,
+        "end_timestamp": 469.47668
+      },
+      {
+        "text": "and",
+        "start_timestamp": 469.47668,
+        "end_timestamp": 469.71667
+      },
+      {
+        "text": "Insight",
+        "start_timestamp": 469.71667,
+        "end_timestamp": 470.1967
+      },
+      {
+        "text": "Gen.",
+        "start_timestamp": 470.1967,
+        "end_timestamp": 470.5167
+      },
+      {
+        "text": "We'll",
+        "start_timestamp": 471.15668,
+        "end_timestamp": 471.5167
+      },
+      {
+        "text": "use",
+        "start_timestamp": 471.5167,
+        "end_timestamp": 471.6767
+      },
+      {
+        "text": "the",
+        "start_timestamp": 471.6767,
+        "end_timestamp": 471.87668
+      },
+      {
+        "text": "phase.",
+        "start_timestamp": 471.87668,
+        "end_timestamp": 472.2767
+      },
+      {
+        "text": "We'll",
+        "start_timestamp": 472.75668,
+        "end_timestamp": 473.15668
+      },
+      {
+        "text": "use",
+        "start_timestamp": 473.15668,
+        "end_timestamp": 473.43668
+      },
+      {
+        "text": "the",
+        "start_timestamp": 473.43668,
+        "end_timestamp": 473.71667
+      },
+      {
+        "text": "phrase",
+        "start_timestamp": 473.71667,
+        "end_timestamp": 474.1967
+      },
+      {
+        "text": "ethically",
+        "start_timestamp": 474.6767,
+        "end_timestamp": 475.31668
+      },
+      {
+        "text": "sourced",
+        "start_timestamp": 475.31668,
+        "end_timestamp": 475.8367
+      },
+      {
+        "text": "AI",
+        "start_timestamp": 475.8367,
+        "end_timestamp": 476.3967
+      },
+      {
+        "text": "insights",
+        "start_timestamp": 476.3967,
+        "end_timestamp": 477.0767
+      },
+      {
+        "text": "in",
+        "start_timestamp": 477.2367,
+        "end_timestamp": 477.5567
+      },
+      {
+        "text": "all",
+        "start_timestamp": 477.5567,
+        "end_timestamp": 477.8367
+      },
+      {
+        "text": "press",
+        "start_timestamp": 477.8367,
+        "end_timestamp": 478.1967
+      },
+      {
+        "text": "releases",
+        "start_timestamp": 478.1967,
+        "end_timestamp": 478.87668
+      },
+      {
+        "text": "starting",
+        "start_timestamp": 478.87668,
+        "end_timestamp": 479.31668
+      },
+      {
+        "text": "next",
+        "start_timestamp": 479.31668,
+        "end_timestamp": 479.59668
+      },
+      {
+        "text": "week.",
+        "start_timestamp": 479.59668,
+        "end_timestamp": 479.9567
+      }
+    ]
+  },
+  {
+    "speaker": "Gerald Villaran",
+    "words": [
+      {
+        "text": "Excellent.",
+        "start_timestamp": 489.15668,
+        "end_timestamp": 489.87668
+      },
+      {
+        "text": "Next",
+        "start_timestamp": 490.59668,
+        "end_timestamp": 490.9967
+      },
+      {
+        "text": "steps.",
+        "start_timestamp": 490.9967,
+        "end_timestamp": 491.6367
+      },
+      {
+        "text": "David",
+        "start_timestamp": 491.71667,
+        "end_timestamp": 492.2367
+      },
+      {
+        "text": "sends",
+        "start_timestamp": 492.2367,
+        "end_timestamp": 492.59668
+      },
+      {
+        "text": "the",
+        "start_timestamp": 492.59668,
+        "end_timestamp": 492.7967
+      },
+      {
+        "text": "dependency",
+        "start_timestamp": 492.7967,
+        "end_timestamp": 493.3967
+      },
+      {
+        "text": "report",
+        "start_timestamp": 493.3967,
+        "end_timestamp": 493.7967
+      },
+      {
+        "text": "by",
+        "start_timestamp": 493.9567,
+        "end_timestamp": 494.2767
+      },
+      {
+        "text": "2pm",
+        "start_timestamp": 494.2767,
+        "end_timestamp": 494.9167
+      },
+      {
+        "text": "Sarah",
+        "start_timestamp": 495.50668,
+        "end_timestamp": 495.9467
+      },
+      {
+        "text": "circulates",
+        "start_timestamp": 495.9467,
+        "end_timestamp": 496.5467
+      },
+      {
+        "text": "the",
+        "start_timestamp": 496.5467,
+        "end_timestamp": 496.7467
+      },
+      {
+        "text": "draft",
+        "start_timestamp": 496.7467,
+        "end_timestamp": 497.2667
+      },
+      {
+        "text": "press",
+        "start_timestamp": 497.2667,
+        "end_timestamp": 497.62668
+      },
+      {
+        "text": "release",
+        "start_timestamp": 497.62668,
+        "end_timestamp": 497.9867
+      },
+      {
+        "text": "by",
+        "start_timestamp": 497.9867,
+        "end_timestamp": 498.3067
+      },
+      {
+        "text": "end",
+        "start_timestamp": 498.3067,
+        "end_timestamp": 498.50668
+      },
+      {
+        "text": "of",
+        "start_timestamp": 498.50668,
+        "end_timestamp": 498.7067
+      },
+      {
+        "text": "day",
+        "start_timestamp": 498.7067,
+        "end_timestamp": 498.9867
+      },
+      {
+        "text": "Tuesday.",
+        "start_timestamp": 498.9867,
+        "end_timestamp": 499.34668
+      },
+      {
+        "text": "We'll",
+        "start_timestamp": 500.06668,
+        "end_timestamp": 500.4267
+      },
+      {
+        "text": "meet",
+        "start_timestamp": 500.4267,
+        "end_timestamp": 500.5867
+      },
+      {
+        "text": "again",
+        "start_timestamp": 500.5867,
+        "end_timestamp": 500.8267
+      },
+      {
+        "text": "on",
+        "start_timestamp": 500.8267,
+        "end_timestamp": 501.1067
+      },
+      {
+        "text": "Friday",
+        "start_timestamp": 501.1067,
+        "end_timestamp": 501.4267
+      },
+      {
+        "text": "at",
+        "start_timestamp": 501.4267,
+        "end_timestamp": 501.7067
+      },
+      {
+        "text": "10am",
+        "start_timestamp": 501.7067,
+        "end_timestamp": 502.22668
+      },
+      {
+        "text": "to",
+        "start_timestamp": 502.5467,
+        "end_timestamp": 502.8667
+      },
+      {
+        "text": "review",
+        "start_timestamp": 502.8667,
+        "end_timestamp": 503.1467
+      },
+      {
+        "text": "the",
+        "start_timestamp": 503.1467,
+        "end_timestamp": 503.4267
+      },
+      {
+        "text": "new",
+        "start_timestamp": 503.4267,
+        "end_timestamp": 503.62668
+      },
+      {
+        "text": "deployment",
+        "start_timestamp": 503.62668,
+        "end_timestamp": 504.1467
+      },
+      {
+        "text": "timeline",
+        "start_timestamp": 504.1467,
+        "end_timestamp": 504.62668
+      },
+      {
+        "text": "and",
+        "start_timestamp": 504.62668,
+        "end_timestamp": 504.8267
+      },
+      {
+        "text": "the",
+        "start_timestamp": 504.8267,
+        "end_timestamp": 504.9867
+      },
+      {
+        "text": "marketing",
+        "start_timestamp": 504.9867,
+        "end_timestamp": 505.50668
+      },
+      {
+        "text": "assets.",
+        "start_timestamp": 505.50668,
+        "end_timestamp": 505.9867
+      },
+      {
+        "text": "Thanks,",
+        "start_timestamp": 507.0267,
+        "end_timestamp": 507.4267
+      },
+      {
+        "text": "team.",
+        "start_timestamp": 507.4267,
+        "end_timestamp": 507.7467
+      },
+      {
+        "text": "Good",
+        "start_timestamp": 507.90668,
+        "end_timestamp": 508.22668
+      },
+      {
+        "text": "work.",
+        "start_timestamp": 508.22668,
+        "end_timestamp": 508.5467
+      }
+    ]
+  },
+  {
+    "speaker": "Charlie Mike V",
+    "words": [
+      {
+        "text": "Thank",
+        "start_timestamp": 514.54663,
+        "end_timestamp": 514.9067
+      },
+      {
+        "text": "you,",
+        "start_timestamp": 514.9067,
+        "end_timestamp": 515.1067
+      },
+      {
+        "text": "everyone",
+        "start_timestamp": 515.1067,
+        "end_timestamp": 515.42664
+      },
+      {
+        "text": "and",
+        "start_timestamp": 515.50665,
+        "end_timestamp": 515.7867
+      },
+      {
+        "text": "goodbye.",
+        "start_timestamp": 515.7867,
+        "end_timestamp": 516.38666
+      }
+    ]
+  },
+  {
+    "speaker": "David",
+    "words": [
+      {
+        "text": "Thank",
+        "start_timestamp": 519.9067,
+        "end_timestamp": 520.26666
+      },
+      {
+        "text": "you,",
+        "start_timestamp": 520.26666,
+        "end_timestamp": 520.4667
+      },
+      {
+        "text": "everyone.",
+        "start_timestamp": 520.4667,
+        "end_timestamp": 520.7867
+      },
+      {
+        "text": "Have",
+        "start_timestamp": 521.18665,
+        "end_timestamp": 521.4667
+      },
+      {
+        "text": "a",
+        "start_timestamp": 521.4667,
+        "end_timestamp": 521.5867
+      },
+      {
+        "text": "nice",
+        "start_timestamp": 521.5867,
+        "end_timestamp": 521.86664
+      },
+      {
+        "text": "day.",
+        "start_timestamp": 521.86664,
+        "end_timestamp": 522.2267
       }
     ]
   }
