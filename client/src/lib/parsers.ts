@@ -2,27 +2,12 @@ import { TranscriptEntry } from "@/components/TranscriptView";
 
 interface RecallWord {
   text: string;
-  start_timestamp: {
-    relative: number;
-    absolute: string;
-  };
-  end_timestamp: {
-    relative: number;
-    absolute: string;
-  };
-}
-
-interface RecallParticipant {
-  id: number;
-  name: string;
-  extra_data?: any;
-  is_host?: boolean;
-  platform?: string;
-  email?: string | null;
+  start_timestamp: number;
+  end_timestamp: number;
 }
 
 interface RecallTranscriptEntry {
-  participant: RecallParticipant;
+  speaker: string;
   words: RecallWord[];
 }
 
@@ -32,16 +17,18 @@ function formatTimestamp(seconds: number): string {
   return `${mins}:${secs.toString().padStart(2, "0")}`;
 }
 
-export function parseRecallTranscript(jsonData: RecallTranscriptEntry[]): TranscriptEntry[] {
+export function parseRecallTranscript(
+  jsonData: RecallTranscriptEntry[]
+): TranscriptEntry[] {
   const entries: TranscriptEntry[] = [];
 
   for (const entry of jsonData) {
-    const speaker = entry.participant.name;
+    const speaker = entry.speaker;
     const words = entry.words;
 
     if (words.length === 0) continue;
 
-    const startTime = words[0].start_timestamp.relative;
+    const startTime = words[0].start_timestamp;
     const text = words.map((w) => w.text).join(" ");
 
     entries.push({

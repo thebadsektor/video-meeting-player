@@ -34,7 +34,7 @@ export default function VideoPlayer({
     if (videoRef.current) {
       onVideoElement(videoRef.current);
     }
-  }, [onVideoElement]);
+  }, [onVideoElement, videoRef]);
 
   useEffect(() => {
     if (videoRef.current) {
@@ -50,12 +50,11 @@ export default function VideoPlayer({
 
   const togglePlayPause = () => {
     if (videoRef.current) {
-      if (isPlaying) {
-        videoRef.current.pause();
-      } else {
+      if (videoRef.current.paused) {
         videoRef.current.play();
+      } else {
+        videoRef.current.pause();
       }
-      setIsPlaying(!isPlaying);
     }
   };
 
@@ -92,9 +91,12 @@ export default function VideoPlayer({
         <video
           ref={videoRef}
           src={videoUrl}
+          muted
           className="w-full h-full"
           onTimeUpdate={handleTimeUpdate}
           onLoadedMetadata={handleLoadedMetadata}
+          onPlay={() => setIsPlaying(true)}
+          onPause={() => setIsPlaying(false)}
           data-testid="video-element"
         />
       </div>

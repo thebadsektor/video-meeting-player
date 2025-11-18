@@ -98,7 +98,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       res.setHeader("Content-Type", contentTypes[ext] || "application/octet-stream");
       res.setHeader("Cross-Origin-Resource-Policy", "cross-origin");
       res.setHeader("X-Content-Type-Options", "nosniff");
-      res.setHeader("Content-Security-Policy", "default-src 'none'");
+      res.setHeader("Content-Security-Policy", "default-src 'self'");
       
       // Stream the file
       const fileStream = (await import("fs")).createReadStream(filePath);
