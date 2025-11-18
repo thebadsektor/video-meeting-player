@@ -26,6 +26,7 @@ export default function VideoPlayer({
   onVideoElement,
 }: VideoPlayerProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
+  const lastSyncedTimeRef = useRef(0);
   const [isPlaying, setIsPlaying] = useState(false);
   const [playbackRate, setPlaybackRate] = useState("1");
   const [duration, setDuration] = useState(0);
@@ -39,9 +40,17 @@ export default function VideoPlayer({
   }, [onVideoElement, videoRef]);
 
   useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.currentTime = currentTime;
+    const video = videoRef.current;
+    if (!video) {
+      return;
     }
+
+    if (Math.abs(video.currentTime - currentTime) < 0.25) {
+      return;
+    }
+
+    video.currentTime = currentTime;
+    lastSyncedTimeRef.current = currentTime;
   }, [currentTime]);
 
   useEffect(() => {
@@ -74,7 +83,9 @@ export default function VideoPlayer({
 
   const handleTimeUpdate = () => {
     if (videoRef.current) {
-      onTimeUpdate(videoRef.current.currentTime);
+      const time = videoRef.current.currentTime;
+      lastSyncedTimeRef.current = time;
+      onTimeUpdate(time);
     }
   };
 
