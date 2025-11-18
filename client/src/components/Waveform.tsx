@@ -4,12 +4,16 @@ import { ZoomIn, ZoomOut } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 interface WaveformProps {
-  audioUrl: string;
+  audioElement: HTMLVideoElement;
   currentTime: number;
   onSeek: (time: number) => void;
 }
 
-export default function Waveform({ audioUrl, currentTime, onSeek }: WaveformProps) {
+export default function Waveform({
+  audioElement,
+  currentTime,
+  onSeek,
+}: WaveformProps) {
   const waveformRef = useRef<HTMLDivElement>(null);
   const wavesurferRef = useRef<WaveSurfer | null>(null);
   const [zoomLevel, setZoomLevel] = useState(1);
@@ -36,7 +40,7 @@ export default function Waveform({ audioUrl, currentTime, onSeek }: WaveformProp
         }
       });
 
-      wavesurferRef.current.load(audioUrl);
+      wavesurferRef.current.load(audioElement.src);
     }
 
     return () => {
@@ -45,7 +49,7 @@ export default function Waveform({ audioUrl, currentTime, onSeek }: WaveformProp
         wavesurferRef.current = null;
       }
     };
-  }, [audioUrl, onSeek]);
+  }, [audioElement, onSeek]);
 
   useEffect(() => {
     if (wavesurferRef.current) {

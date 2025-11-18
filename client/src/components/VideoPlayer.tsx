@@ -15,6 +15,7 @@ interface VideoPlayerProps {
   currentTime: number;
   onTimeUpdate: (time: number) => void;
   onDurationChange: (duration: number) => void;
+  onVideoElement: (element: HTMLVideoElement) => void;
 }
 
 export default function VideoPlayer({
@@ -22,11 +23,18 @@ export default function VideoPlayer({
   currentTime,
   onTimeUpdate,
   onDurationChange,
+  onVideoElement,
 }: VideoPlayerProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [playbackRate, setPlaybackRate] = useState("1");
   const [duration, setDuration] = useState(0);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      onVideoElement(videoRef.current);
+    }
+  }, [onVideoElement]);
 
   useEffect(() => {
     if (videoRef.current) {

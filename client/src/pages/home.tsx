@@ -13,50 +13,17 @@ import {
   parseRawText,
 } from "@/lib/parsers";
 
-//todo: remove mock functionality
-const SAMPLE_VIDEO = "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
-const SAMPLE_TRANSCRIPT: TranscriptEntry[] = [
-  {
-    speaker: "Gerald Villaran",
-    timestamp: "0:06",
-    timestampSeconds: 6.45,
-    text: "Mic check, mic check. 1, 2, 3.",
-  },
-  {
-    speaker: "Gerald Villaran",
-    timestamp: "0:17",
-    timestampSeconds: 17.25,
-    text: "Mic check, mic check. 1, 2', 3, 4, 5.",
-  },
-  {
-    speaker: "John Smith",
-    timestamp: "0:30",
-    timestampSeconds: 30.0,
-    text: "Thanks for joining everyone. Let's get started with today's discussion about the quarterly roadmap and our achievements.",
-  },
-  {
-    speaker: "Sarah Johnson",
-    timestamp: "0:45",
-    timestampSeconds: 45.0,
-    text: "I've prepared some slides that outline our progress over the last three months. We've made significant improvements to the user experience and performance metrics.",
-  },
-  {
-    speaker: "Gerald Villaran",
-    timestamp: "1:05",
-    timestampSeconds: 65.0,
-    text: "That's great to hear. Can you walk us through the key metrics and what they mean for our Q4 planning?",
-  },
-  {
-    speaker: "Sarah Johnson",
-    timestamp: "1:20",
-    timestampSeconds: 80.0,
-    text: "Absolutely. Our user engagement has increased by 35%, and we've reduced load times by almost 50%. This positions us well for the next quarter.",
-  },
-];
+const SAMPLE_VIDEO = "/recallai-recording.mp4";
+const SAMPLE_TRANSCRIPT = "/sample-transcript.json";
 
 export default function Home() {
   const [videoUrl, setVideoUrl] = useState<string>("");
-  const [transcriptEntries, setTranscriptEntries] = useState<TranscriptEntry[]>([]);
+  const [transcriptEntries, setTranscriptEntries] = useState<TranscriptEntry[]>(
+    []
+  );
+  const [videoElement, setVideoElement] = useState<HTMLVideoElement | null>(
+    null
+  );
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
   const [preset, setPreset] = useState<TranscriptPreset>("recall");
@@ -159,10 +126,10 @@ export default function Home() {
 
   const handleLoadSample = async () => {
     try {
-      const response = await fetch("/sample-transcript.json");
+      const response = await fetch(SAMPLE_TRANSCRIPT);
       const jsonData = await response.json();
       const entries = parseRecallTranscript(jsonData);
-      
+
       setVideoUrl(SAMPLE_VIDEO);
       setTranscriptEntries(entries);
       setPreset("recall");
@@ -171,13 +138,10 @@ export default function Home() {
         description: "Sample meeting has been loaded successfully.",
       });
     } catch (error) {
-      // Fallback to hardcoded sample
-      setVideoUrl(SAMPLE_VIDEO);
-      setTranscriptEntries(SAMPLE_TRANSCRIPT);
-      setPreset("recall");
       toast({
-        title: "Sample loaded",
-        description: "Sample meeting has been loaded successfully.",
+        title: "Failed to load sample",
+        description: "Could not load the sample meeting.",
+        variant: "destructive",
       });
     }
   };
@@ -231,12 +195,15 @@ export default function Home() {
               currentTime={currentTime}
               onTimeUpdate={setCurrentTime}
               onDurationChange={setDuration}
+              onVideoElement={setVideoElement}
             />
-            <Waveform
-              audioUrl={videoUrl}
-              currentTime={currentTime}
-              onSeek={setCurrentTime}
-            />
+            {videoElement && (
+              <Waveform
+                audioElement={videoElement}
+                currentTime={currentTime}
+                onSeek={setCurrentTime}
+              />
+            )}
           </div>
 
           <div className="w-[40%] border-l">
