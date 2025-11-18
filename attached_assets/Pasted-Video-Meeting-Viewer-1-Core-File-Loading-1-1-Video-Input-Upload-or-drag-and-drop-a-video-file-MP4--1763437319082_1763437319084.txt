@@ -1,0 +1,171 @@
+Video Meeting Viewer
+1. Core File Loading
+1.1 Video Input
+Upload or drag-and-drop a video file (MP4 preferred for MVP)
+
+
+Validate file type and size
+
+
+Load into HTML5 video element
+
+
+1.2 Transcript Input
+Upload or drag-and-drop transcript file
+
+
+Supported formats (MVP): .txt, .vtt, .srt
+
+
+Validate format (or fallback to “raw text mode”)
+2. Preset-Based Transcript Parsing
+2.1 Transcript Presets
+Select preset from dropdown:
+
+
+e.g., Zoom, Google Meet, MS Teams, Otter, or “Raw Text”
+
+
+Each preset contains rules for:
+
+
+speaker extraction
+
+
+timestamp parsing
+
+
+line segmentation
+
+
+Pluggable parser architecture so new presets can be added easily
+
+
+2.2 Parsing Output
+Normalize into internal structure:
+3. Video Player UI
+3.1 Basic Playback
+Play / Pause
+
+
+Seek / progress bar
+
+
+Playback speed (0.5x to 2x)
+
+
+3.2 Audio Waveform Display
+Waveform rendered from audio track
+
+
+Synchronized with video time
+
+
+Highlight current position
+
+
+Zoom controls (MVP: two levels—default & zoom-in)
+4. 
+Transcript Display UI
+4.1 Linked Transcript View
+Scrollable transcript pane
+
+
+Auto-scroll to current line as video plays
+
+
+Highlight active line based on playback position
+
+
+4.2 Click-to-Seek
+Clicking a transcript line seeks the video to that timestamp
+
+
+4.3 Basic Search (Optional MVP)
+Text search with highlight
+
+
+
+5. 
+Waveform + Transcript Synchronization
+Waveform position follows video time
+
+
+Transcript highlighting follows video time
+
+
+Manual timeline seeking updates both views instantly
+
+
+
+6. 
+Sample Meeting Loader
+6.1 Preloaded Sample Dataset
+A sample meeting bundle:
+
+
+sample.mp4
+
+
+sample_transcript.vtt
+
+
+optional metadata (speaker mapping)
+
+
+“Load Sample Meeting” button for quick testing
+
+
+
+7. 
+System Architecture (MVP-Level Clarity)
+7.1 Frontend
+React (or Svelte/Vue) SPA
+
+
+Separate modules:
+
+
+video loader
+
+
+transcript parser
+
+
+waveform generator
+
+
+synced timeline controller
+
+
+7.2 Data Flow
+Unified store (Zustand/Recoil/Redux) holding:
+
+
+currentTime
+
+
+transcript blocks
+
+
+waveform data
+
+
+active preset
+
+
+
+8. High-Impact Enhancements
+Speaker color tagging
+
+
+Export cleaned transcript
+
+
+Keyboard shortcuts (J/K/L, ←/→)
+
+
+Multi-track support (audio only meetings)
+
+
+

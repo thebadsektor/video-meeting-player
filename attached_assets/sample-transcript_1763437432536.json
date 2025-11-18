@@ -1,0 +1,194 @@
+[
+  {
+    "participant": {
+      "id": 100,
+      "name": "Gerald Villaran",
+      "extra_data": {
+        "google_meet": {
+          "static_participant_id": "ksSi0dC3xbuF3P2eoMOVcVlKcMZ6ypdtByGlMoMAnRo="
+        }
+      },
+      "is_host": true,
+      "platform": "unknown",
+      "email": null
+    },
+    "words": [
+      {
+        "text": "Mic",
+        "start_timestamp": {
+          "relative": 6.45408,
+          "absolute": "2025-10-30T02:08:29.826Z"
+        },
+        "end_timestamp": {
+          "relative": 6.69408,
+          "absolute": "2025-10-30T02:08:30.066Z"
+        }
+      },
+      {
+        "text": "check,",
+        "start_timestamp": {
+          "relative": 6.69408,
+          "absolute": "2025-10-30T02:08:30.066Z"
+        },
+        "end_timestamp": {
+          "relative": 7.01408,
+          "absolute": "2025-10-30T02:08:30.386Z"
+        }
+      },
+      {
+        "text": "mic",
+        "start_timestamp": {
+          "relative": 7.01408,
+          "absolute": "2025-10-30T02:08:30.386Z"
+        },
+        "end_timestamp": {
+          "relative": 7.33408,
+          "absolute": "2025-10-30T02:08:30.706Z"
+        }
+      },
+      {
+        "text": "check.",
+        "start_timestamp": {
+          "relative": 7.33408,
+          "absolute": "2025-10-30T02:08:30.706Z"
+        },
+        "end_timestamp": {
+          "relative": 7.65408,
+          "absolute": "2025-10-30T02:08:31.026Z"
+        }
+      },
+      {
+        "text": "1,",
+        "start_timestamp": {
+          "relative": 7.65408,
+          "absolute": "2025-10-30T02:08:31.026Z"
+        },
+        "end_timestamp": {
+          "relative": 7.89408,
+          "absolute": "2025-10-30T02:08:31.266Z"
+        }
+      },
+      {
+        "text": "2,",
+        "start_timestamp": {
+          "relative": 7.94708,
+          "absolute": "2025-10-30T02:08:31.319Z"
+        },
+        "end_timestamp": {
+          "relative": 8.16008,
+          "absolute": "2025-10-30T02:08:31.532Z"
+        }
+      },
+      {
+        "text": "3.",
+        "start_timestamp": {
+          "relative": 8.21408,
+          "absolute": "2025-10-30T02:08:31.586Z"
+        },
+        "end_timestamp": {
+          "relative": 8.45408,
+          "absolute": "2025-10-30T02:08:31.826Z"
+        }
+      },
+      {
+        "text": "Mic",
+        "start_timestamp": {
+          "relative": 17.254082,
+          "absolute": "2025-10-30T02:08:40.626Z"
+        },
+        "end_timestamp": {
+          "relative": 17.69408,
+          "absolute": "2025-10-30T02:08:41.066Z"
+        }
+      },
+      {
+        "text": "check,",
+        "start_timestamp": {
+          "relative": 17.69408,
+          "absolute": "2025-10-30T02:08:41.066Z"
+        },
+        "end_timestamp": {
+          "relative": 18.054081,
+          "absolute": "2025-10-30T02:08:41.426Z"
+        }
+      },
+      {
+        "text": "mic",
+        "start_timestamp": {
+          "relative": 18.054081,
+          "absolute": "2025-10-30T02:08:41.426Z"
+        },
+        "end_timestamp": {
+          "relative": 18.37408,
+          "absolute": "2025-10-30T02:08:41.746Z"
+        }
+      },
+      {
+        "text": "check.",
+        "start_timestamp": {
+          "relative": 18.37408,
+          "absolute": "2025-10-30T02:08:41.746Z"
+        },
+        "end_timestamp": {
+          "relative": 18.734081,
+          "absolute": "2025-10-30T02:08:42.106Z"
+        }
+      },
+      {
+        "text": "1,",
+        "start_timestamp": {
+          "relative": 18.734081,
+          "absolute": "2025-10-30T02:08:42.106Z"
+        },
+        "end_timestamp": {
+          "relative": 19.029081,
+          "absolute": "2025-10-30T02:08:42.401Z"
+        }
+      },
+      {
+        "text": "2',",
+        "start_timestamp": {
+          "relative": 19.094082,
+          "absolute": "2025-10-30T02:08:42.466Z"
+        },
+        "end_timestamp": {
+          "relative": 19.35708,
+          "absolute": "2025-10-30T02:08:42.729Z"
+        }
+      },
+      {
+        "text": "3,",
+        "start_timestamp": {
+          "relative": 19.422081,
+          "absolute": "2025-10-30T02:08:42.794Z"
+        },
+        "end_timestamp": {
+          "relative": 19.685081,
+          "absolute": "2025-10-30T02:08:43.057Z"
+        }
+      },
+      {
+        "text": "4,",
+        "start_timestamp": {
+          "relative": 19.75008,
+          "absolute": "2025-10-30T02:08:43.122Z"
+        },
+        "end_timestamp": {
+          "relative": 20.01308,
+          "absolute": "2025-10-30T02:08:43.385Z"
+        }
+      },
+      {
+        "text": "5.",
+        "start_timestamp": {
+          "relative": 20.078081,
+          "absolute": "2025-10-30T02:08:43.450Z"
+        },
+        "end_timestamp": {
+          "relative": 20.37408,
+          "absolute": "2025-10-30T02:08:43.746Z"
+        }
+      }
+    ]
+  }
+]
